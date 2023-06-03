@@ -1,14 +1,12 @@
 import { Icon } from "../types";
 
-import { AirtableIcon } from "./AirtableIcon";
+import { AirtableIcon } from "./companies/airtable";
 export { AirtableIcon };
-import { AsanaIcon } from "./AsanaIcon";
+import { AsanaIcon } from "./companies/asana";
 export { AsanaIcon };
-import { GitHubLightIcon } from "./GitHubLightIcon";
-export { GitHubLightIcon };
-import { GitHubDarkIcon } from "./GitHubDarkIcon";
-export { GitHubDarkIcon };
-import { SlackIcon } from "./Slack";
+import { GitHubDarkIcon, GitHubLightIcon } from "./companies/github";
+export { GitHubDarkIcon, GitHubLightIcon };
+import { SlackIcon } from "./companies/Slack";
 export { SlackIcon };
 
 export const icons: Record<string, Icon> = {

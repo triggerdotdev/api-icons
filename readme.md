@@ -1,8 +1,8 @@
-# API Icons
+# Company Icons
 
-Easily render API icons in your React app. Either directly use an icon by importing it from the `@trigger.dev/api-icons` package or use the `ApiIcon` component to render any icon by name.
+Easily render Company icons in your React app. Either directly use an icon by importing it from the `@trigger.dev/companyicons` package or use the `CompanyIcon` component to render any icon by name.
 
-This library was created for use in [Trigger.dev](https://trigger.dev) to render API icons.
+This library was created for use in [Trigger.dev](https://trigger.dev) to render Company icons.
 
 Please note that the copyright and trademarks of all icons belong to their respective companies. Please use them responsibly and ensure you follow the terms of use of each company. We're not responsible for any misuse. You're on your own kids.
 
@@ -11,7 +11,7 @@ Please note that the copyright and trademarks of all icons belong to their respe
 Install using your favorite package manager, e.g. npm:
 
 ```
-npm install @trigger.dev/api-icons
+npm install @trigger.dev/companyicons
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ import {
   AirtableIcon,
   AsanaIcon,
   GitHubLightIcon,
-} from "@trigger.dev/api-icons";
+} from "@trigger.dev/companyicons";
 
 function App() {
   return (
@@ -42,27 +42,27 @@ function App() {
 export default App;
 ```
 
-Or use the `ApiIcon` component to render any icon by name. This allows you to render API icons at runtime based on the name.
+Or use the `CompanyIcon` component to render any icon by name. This allows you to render Company icons at runtime based on the name.
 
 ```tsx
 import React from "react";
-import { ApiIcon } from "@trigger.dev/api-icons";
+import { CompanyIcon } from "@trigger.dev/companyicons";
 
 function App() {
   return (
     <div>
-      <ApiIcon name="airtable" className="w-4 h-4" />
-      <ApiIcon name="asana" style={{ width: "16px", height: "16px" }} />
+      <CompanyIcon name="airtable" className="w-4 h-4" />
+      <CompanyIcon name="asana" style={{ width: "16px", height: "16px" }} />
 
       {/* GitHub has a light and dark variant.
        If unspecified you'll get the default (dark in this case) */}
-      <ApiIcon name="github" className="w-4 h-4" />
+      <CompanyIcon name="github" className="w-4 h-4" />
       {/* Or specify the variant */}
-      <ApiIcon name="github" className="w-4 h-4" variant="light" />
-      <ApiIcon name="github" className="w-4 h-4" variant="dark" />
+      <CompanyIcon name="github" className="w-4 h-4" variant="light" />
+      <CompanyIcon name="github" className="w-4 h-4" variant="dark" />
 
       {/* Slack has no variants, so will ignore the variant you specify */}
-      <ApiIcon name="slack" className="w-4 h-4" variant="light" />
+      <CompanyIcon name="slack" className="w-4 h-4" variant="light" />
     </div>
   );
 }
@@ -106,8 +106,8 @@ They will:
 
 ## License
 
-This library is licensed under the [MIT License](https://github.com/triggerdotdev/api-icons/blob/main/license).
+This library is licensed under the [MIT License](https://github.com/triggerdotdev/Company-icons/blob/main/license).
 
 ## Trigger.dev
 
-[Trigger.dev](https://trigger.dev) is a background Jobs framework. It makes it easy to create long-running jobs directly in your codebase with features like API integrations, webhooks, scheduling and delays.
+[Trigger.dev](https://trigger.dev) is a background Jobs framework. It makes it easy to create long-running jobs directly in your codebase with features like Company integrations, webhooks, scheduling and delays.

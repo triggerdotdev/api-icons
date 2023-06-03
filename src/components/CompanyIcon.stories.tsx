@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Meta, StoryObj } from "@storybook/react";
-import { ApiIcon } from "./ApiIcon";
+import { CompanyIcon } from "./CompanyIcon";
 import { icons } from "../icons";
 
 const meta: Meta = {
@@ -13,8 +13,8 @@ export const Grid: StoryObj<typeof GridLayout> = (args) => (
 );
 Grid.args = {};
 
-export const Individual: StoryObj<typeof ApiIcon> = (args) => (
-  <ApiIcon {...args} />
+export const Individual: StoryObj<typeof CompanyIcon> = (args) => (
+  <CompanyIcon {...args} />
 );
 Individual.args = {
   name: "airtable",
@@ -57,7 +57,7 @@ function GridLayout() {
         <Fragment key={iconName}>
           <h3 style={{ ...cellStyle }}>{iconName}</h3>
           <div style={{ ...cellStyle, backgroundColor: "#def" }}>
-            <ApiIcon
+            <CompanyIcon
               name={iconName}
               style={{
                 display: "block",
@@ -68,7 +68,7 @@ function GridLayout() {
             />
           </div>
           <div style={cellStyle}>
-            <ApiIcon
+            <CompanyIcon
               name={iconName}
               variant="dark"
               style={{
@@ -79,7 +79,7 @@ function GridLayout() {
             />
           </div>
           <div style={{ ...cellStyle, backgroundColor: "#000" }}>
-            <ApiIcon
+            <CompanyIcon
               name={iconName}
               variant="light"
               style={{
@@ -90,7 +90,7 @@ function GridLayout() {
             />
           </div>
           <div style={cellStyle}>
-            <ApiIcon
+            <CompanyIcon
               name={iconName}
               variant="dark"
               style={{

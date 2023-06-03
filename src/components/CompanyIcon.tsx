@@ -28,7 +28,7 @@ export function hasIcon(name: string, wantVariants = false): boolean {
  * @param {string} name - The name of the icon to render.
  * @param {IconVariant} variant - Will return a light or dark icon, if there is a variant. Otherwise it will return the regular one.
  */
-export const ApiIcon = forwardRef<SVGSVGElement, IconProps>(
+export const CompanyIcon = forwardRef<SVGSVGElement, IconProps>(
   ({ name, variant, ...props }, ref) => {
     if (!hasIcon(name)) {
       console.error(`Icon not found: ${name}`);
