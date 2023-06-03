@@ -76,6 +76,15 @@ We welcome new icon contributions and fixes. Please follow the steps below to co
 - Check your changes look correct in Storybook in your browser.
 - Create a pull request to the main repository with a good description.
 
+### Publishing
+
+The Trigger.dev team can publish new versions of the library. Please create a pull request with your changes and we'll publish a new version.
+
+They will:
+
+1. check any changes look good in Storybook.
+2. Run `npx np` to publish a new version. Bumping
+
 ## License
 
 This library is licensed under the [MIT License](https://github.com/triggerdotdev/api-icons/blob/main/license).
