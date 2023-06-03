@@ -20,7 +20,11 @@ DIrectly import a specific icon from the library and use them in your React comp
 
 ```tsx
 import React from "react";
-import { AirtableIcon, AsanaIcon } from "@trigger.dev/api-icons";
+import {
+  AirtableIcon,
+  AsanaIcon,
+  GitHubLightIcon,
+} from "@trigger.dev/api-icons";
 
 function App() {
   return (
@@ -29,6 +33,8 @@ function App() {
       <AirtableIcon className="w-4 h-4" />
       {/* Or style */}
       <AsanaIcon style={{ width: "16px", height: "16px" }} />
+      {/* Some icons have a "light" and "dark" variant, like GitHub */}
+      <GitHubLightIcon className="w-4 h-4" />
     </div>
   );
 }
@@ -47,6 +53,16 @@ function App() {
     <div>
       <ApiIcon name="airtable" className="w-4 h-4" />
       <ApiIcon name="asana" style={{ width: "16px", height: "16px" }} />
+
+      {/* GitHub has a light and dark variant.
+       If unspecified you'll get the default (dark in this case) */}
+      <ApiIcon name="github" className="w-4 h-4" />
+      {/* Or specify the variant */}
+      <ApiIcon name="github" className="w-4 h-4" variant="light" />
+      <ApiIcon name="github" className="w-4 h-4" variant="dark" />
+
+      {/* Slack has no variants, so will ignore the variant you specify */}
+      <ApiIcon name="slack" className="w-4 h-4" variant="light" />
     </div>
   );
 }
