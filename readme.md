@@ -23,7 +23,7 @@ import { AirtableIcon, AsanaIcon } from "@trigger.dev/api-icons";
 function App() {
   return (
     <div>
-      {/* Style using classes, like Tailwind */}
+      {/* Style using classes, including Tailwind */}
       <AirtableIcon className="w-4 h-4" />
       {/* Or style */}
       <AsanaIcon style={{ width: "16px", height: "16px" }} />
@@ -34,7 +34,7 @@ function App() {
 export default App;
 ```
 
-Or use the `ApiIcon` component to render any icon by name. This allows you to render API icons at runtime, for example, when you need to render an icon based on a user's choice.
+Or use the `ApiIcon` component to render any icon by name. This allows you to render API icons at runtime based on the name.
 
 ```tsx
 import React from "react";
@@ -50,6 +50,13 @@ function App() {
 }
 ```
 
+## Icons
+
+The following icons are available:
+
+- airtable
+- asana
+
 ## Contributing
 
 We welcome new icon contributions and fixes. Please follow the steps below to contribute.
@@ -60,8 +67,11 @@ We welcome new icon contributions and fixes. Please follow the steps below to co
 - Install the dependencies using `npm install`.
 - View the components in the browser using `npm run storybook`.
 - Make your changes.
+  - Ensure icons are inline svgs
+  - Ensure icons have the width and height removed and have a valid viewBox
+  - Ensure icons have a title element with the name of the icon
+  - Ensure the icon fills the viewbox, but isn't stretched
 - Check your changes look correct in Storybook in your browser.
-- Build the library using `npm run build`.
 - Create a pull request to the main repository with a good description.
 
 ## License
