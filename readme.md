@@ -83,7 +83,8 @@ The Trigger.dev team can publish new versions of the library. Please create a pu
 They will:
 
 1. check any changes look good in Storybook.
-2. Run `npx np` to publish a new version. Bumping
+2. Run `npm run publish` to publish a new version. It will bump the version number and publish to npm.
+3. Commit the changes to the repository.
 
 ## License
 
