@@ -56,7 +56,7 @@ function GridLayout() {
       {Object.keys(icons).map((iconName) => (
         <Fragment key={iconName}>
           <h3 style={{ ...cellStyle }}>{iconName}</h3>
-          <div style={{ ...cellStyle, backgroundColor: "#999" }}>
+          <div style={{ ...cellStyle, backgroundColor: "#def" }}>
             <ApiIcon
               name={iconName}
               style={{
