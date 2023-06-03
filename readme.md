@@ -1,43 +1,32 @@
-# My Demo UI Library
+# API Icons
 
-This is a demo UI component library created using React, TypeScript, Rollup, Storybook, Jest, and React Testing Library. It was created for an article update for [LogRocket](https://blog.logrocket.com/author/pelumiakintokun/) on how to create a UI component library in React. You can read the article [here](https://blog.logrocket.com/build-component-library-react-typescript/).
+Easily render API icons in your React app. Either directly use an icon by importing it from the `@trigger.dev/api-icons` package or use the `ApiIcon` component to render any icon by name.
+
+This library was created for use in [Trigger.dev](https://trigger.dev) to render API icons.
 
 ## Installation
 
-You can install this demo UI library using npm:
+Install using npm:
 
 ```
-npm install @timonwa/demo-ui-library
+npm install @trigger.dev/api-icons
 ```
 
 ## Usage
 
-To use this demo UI library in your project, import the components you need from the library and use them in your React components.
+DIrectly import a specific icon from the library and use them in your React components.
 
-```jsx
+```tsx
 import React from "react";
-import { Input, Button } from "@timonwa/demo-ui-library";
+import { AirtableIcon, AsanaIcon } from "@trigger.dev/api-icons";
 
 function App() {
   return (
     <div>
-      <Input
-        id="name"
-        disabled={false}
-        label="Enter your name"
-        message="This field is required"
-        error={false}
-        success={false}
-        onChange={(e) => console.log(e.target.value)}
-        placeholder="Enter your name here"
-      />
-      <Button
-        size="medium"
-        primary={true}
-        disabled={false}
-        text="Click me!"
-        onClick={() => alert("Button clicked!")}
-      />
+      {/* Style using classes, like Tailwind */}
+      <AirtableIcon className="w-4 h-4" />
+      {/* Or style */}
+      <AsanaIcon style={{ width: "16px", height: "16px" }} />
     </div>
   );
 }
@@ -45,27 +34,40 @@ function App() {
 export default App;
 ```
 
+Or use the `ApiIcon` component to render any icon by name. This allows you to render API icons at runtime, for example, when you need to render an icon based on a user's choice.
+
+```tsx
+import React from "react";
+import { ApiIcon } from "@trigger.dev/api-icons";
+
+function App() {
+  return (
+    <div>
+      <ApiIcon name="airtable" className="w-4 h-4" />
+      <ApiIcon name="asana" style={{ width: "16px", height: "16px" }} />
+    </div>
+  );
+}
+```
+
 ## Contributing
 
-This library is a demo for learning purposes only and is not intended to be contributed to. You can fork the repository and use the code for your personal use or learning.
+We welcome new icon contributions and fixes. Please follow the steps below to contribute.
 
 ### Steps
 
-- Fork the repository.
 - Clone the repository to your local machine.
 - Install the dependencies using `npm install`.
 - View the components in the browser using `npm run storybook`.
 - Make your changes.
-- Test the changes using `npm test`.
+- Check your changes look correct in Storybook in your browser.
 - Build the library using `npm run build`.
-- Commit the changes and push them to your forked repository.
-- Publish the package on [npm](https://www.npmjs.com/).
-- Install and use the package in your project.
+- Create a pull request to the main repository with a good description.
 
 ## License
 
-This demo UI library is licensed under the [MIT License](https://github.com/Timonwa/demo-ui-library/blob/main/license).
+This library is licensed under the [MIT License](https://github.com/Timonwa/demo-ui-library/blob/main/license).
 
-## Connect
+## Trigger.dev
 
-More of my articles can be found in [Timonwa's Notes](https://blog.timonwa.com). Connect with me on Twitter: [@timonwa\_](https://twitter.com/timonwa_)
+[Trigger.dev](https://trigger.dev) is a background Jobs framework. It makes it easy to create long-running jobs directly in your codebase with features like API integrations, webhooks, scheduling and delays.
