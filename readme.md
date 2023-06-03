@@ -78,7 +78,7 @@ We welcome new icon contributions and fixes. Please follow the steps below to co
 
 ## License
 
-This library is licensed under the [MIT License](https://github.com/Timonwa/demo-ui-library/blob/main/license).
+This library is licensed under the [MIT License](https://github.com/triggerdotdev/api-icons/blob/main/license).
 
 ## Trigger.dev
 
