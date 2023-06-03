@@ -4,9 +4,11 @@ Easily render API icons in your React app. Either directly use an icon by import
 
 This library was created for use in [Trigger.dev](https://trigger.dev) to render API icons.
 
+Please note that the copyright and trademarks of all icons belong to their respective companies. Please use them responsibly and ensure you follow the terms of use of each company. We're not responsible for any misuse. You're on your own kids.
+
 ## Installation
 
-Install using npm:
+Install using your favorite package manager, e.g. npm:
 
 ```
 npm install @trigger.dev/api-icons
@@ -66,11 +68,11 @@ We welcome new icon contributions and fixes. Please follow the steps below to co
 - Clone the repository to your local machine.
 - Install the dependencies using `npm install`.
 - View the components in the browser using `npm run storybook`.
-- Make your changes.
-  - Ensure icons are inline svgs
-  - Ensure icons have the width and height removed and have a valid viewBox
-  - Ensure icons have a title element with the name of the icon
-  - Ensure the icon fills the viewbox, but isn't stretched
+- Make your changes, and ensure that:
+  - icons are inline svgs
+  - icons have the width and height removed and have a valid viewBox
+  - icons have a title element with the name of the icon
+  - the icon fills the viewbox, but isn't stretched
 - Check your changes look correct in Storybook in your browser.
 - Create a pull request to the main repository with a good description.
 
