@@ -23,6 +23,17 @@ Individual.args = {
     width: "100px",
     height: "100px",
   },
+  variant: "dark",
+};
+
+const cellStyle = {
+  fontSize: "0.8rem",
+  borderBottom: "1px solid #ccc",
+  padding: "8px",
+  margin: 0,
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
 };
 
 function GridLayout() {
@@ -30,34 +41,22 @@ function GridLayout() {
     <div
       style={{
         display: "grid",
-        gridTemplateColumns: "auto 1fr",
+        gridTemplateColumns: "repeat(5, max-content)",
         alignItems: "stretch",
         justifyItems: "stretch",
+        fontFamily: "sans-serif",
       }}
     >
+      <span style={cellStyle}>Name</span>
+      <span style={cellStyle}>Default</span>
+      <span style={cellStyle}>Light</span>
+      <span style={cellStyle}>Dark</span>
+      <span style={cellStyle}>Small</span>
+
       {Object.keys(icons).map((iconName) => (
         <Fragment key={iconName}>
-          <h4
-            style={{
-              margin: 0,
-              fontFamily: "sans-serif",
-              padding: "8px",
-              borderRight: "1px solid #ccc",
-              borderBottom: "1px solid #ccc",
-            }}
-          >
-            {iconName}
-          </h4>
-          <div
-            style={{
-              display: "flex",
-              flexWrap: "wrap",
-              gap: "8px",
-              paddingLeft: "8px",
-              alignItems: "center",
-              borderBottom: "1px solid #ccc",
-            }}
-          >
+          <h3 style={{ ...cellStyle }}>{iconName}</h3>
+          <div style={{ ...cellStyle, backgroundColor: "#999" }}>
             <ApiIcon
               name={iconName}
               style={{
@@ -67,26 +66,33 @@ function GridLayout() {
                 border: "1px solid #ccc",
               }}
             />
+          </div>
+          <div style={cellStyle}>
             <ApiIcon
               name={iconName}
+              variant="dark"
               style={{
                 display: "block",
                 width: "32px",
                 height: "32px",
               }}
             />
+          </div>
+          <div style={{ ...cellStyle, backgroundColor: "#000" }}>
             <ApiIcon
               name={iconName}
+              variant="light"
               style={{
                 display: "block",
                 width: "32px",
                 height: "32px",
-                backgroundColor: "#000",
-                padding: "8px",
               }}
             />
+          </div>
+          <div style={cellStyle}>
             <ApiIcon
               name={iconName}
+              variant="dark"
               style={{
                 display: "block",
                 width: "16px",

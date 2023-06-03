@@ -73,6 +73,8 @@ We welcome new icon contributions and fixes. Please follow the steps below to co
   - icons have the width and height removed and have a valid viewBox
   - icons have a title element with the name of the icon
   - the icon fills the viewbox, but isn't stretched
+  - all svg properties are camel case (no dashes). It should be `fillRule` not `fill-rule`.
+  - there are no console errors in Storybook
 - Check your changes look correct in Storybook in your browser.
 - Create a pull request to the main repository with a good description.
 
