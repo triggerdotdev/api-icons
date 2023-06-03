@@ -85,6 +85,14 @@ function GridLayout() {
                 padding: "8px",
               }}
             />
+            <ApiIcon
+              name={iconName}
+              style={{
+                display: "block",
+                width: "16px",
+                height: "16px",
+              }}
+            />
           </div>
         </Fragment>
       ))}
