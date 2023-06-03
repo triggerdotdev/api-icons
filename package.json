@@ -1,30 +1,24 @@
 {
-  "name": "@timonwa/demo-ui-library",
+  "name": "@trigger.dev/api-icons",
   "version": "1.0.0",
-  "description": "A demo on how to create a React UI component library using React, Typescript, Rollup, Storybook, Jest and React testing library.",
-  "repository": "https://github.com/Timonwa/demo-ui-library",
+  "description": "Easily render API icons in your React app.",
+  "repository": "https://github.com/triggerdotdev/api-icons",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "jest",
     "build": "rollup -c --bundleConfigAsCjs",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
   "keywords": [
-    "demo",
+    "API",
     "ui",
     "react",
     "library",
-    "tutorial",
-    "learning",
-    "educational",
-    "example",
-    "beginner-friendly",
-    "practice"
+    "icons"
   ],
-  "author": "Timonwa Akintokun",
+  "author": "Matt Aitken",
   "license": "MIT",
   "dependencies": {
     "prop-types": "^15.8.1",
