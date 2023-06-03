@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 import { Meta, StoryObj } from "@storybook/react";
 import { ApiIcon } from "./ApiIcon";
-import { icons } from "../apis";
+import { icons } from "../icons";
 
 const meta: Meta = {
-  title: "ApiIcon",
+  title: "Icons",
 };
 export default meta;
 

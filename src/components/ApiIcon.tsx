@@ -1,6 +1,6 @@
 import { forwardRef } from "react";
 import { SVGProps } from "../types";
-import { icons } from "../apis";
+import { icons } from "../icons";
 
 type ApiIconProps = SVGProps & {
   name: string;
