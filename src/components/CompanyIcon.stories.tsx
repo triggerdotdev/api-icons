@@ -49,8 +49,8 @@ function GridLayout() {
     >
       <span style={cellStyle}>Name</span>
       <span style={cellStyle}>Default</span>
-      <span style={cellStyle}>Light</span>
       <span style={cellStyle}>Dark</span>
+      <span style={cellStyle}>Light</span>
       <span style={cellStyle}>Small</span>
 
       {Object.keys(icons).map((iconName) => (
