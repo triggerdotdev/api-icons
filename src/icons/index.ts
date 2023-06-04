@@ -10,6 +10,8 @@ import { NotionIcon } from "./companies/notion";
 export { NotionIcon };
 import { SendGridIcon } from "./companies/sendgrid";
 export { SendGridIcon };
+import { ShopifyIcon } from "./companies/shopify";
+export { ShopifyIcon };
 import { SlackIcon } from "./companies/slack";
 export { SlackIcon };
 import { StripeIcon } from "./companies/stripe";
@@ -21,6 +23,7 @@ export const icons: Record<string, Icon> = {
   github: { light: GitHubLightIcon, dark: GitHubDarkIcon, default: "dark" },
   notion: { all: NotionIcon },
   sendgrid: { all: SendGridIcon },
+  shopify: { all: ShopifyIcon },
   slack: { all: SlackIcon },
   stripe: { all: StripeIcon },
 };
