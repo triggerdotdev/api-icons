@@ -6,6 +6,8 @@ import { AsanaIcon } from "./companies/asana";
 export { AsanaIcon };
 import { GitHubDarkIcon, GitHubLightIcon } from "./companies/github";
 export { GitHubDarkIcon, GitHubLightIcon };
+import { HubspotIcon } from "./companies/hubspot";
+export { HubspotIcon };
 import { NotionIcon } from "./companies/notion";
 export { NotionIcon };
 import { SalesforceIcon } from "./companies/salesforce";
@@ -23,6 +25,7 @@ export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
   asana: { all: AsanaIcon },
   github: { light: GitHubLightIcon, dark: GitHubDarkIcon, default: "dark" },
+  hubspot: { all: HubspotIcon },
   notion: { all: NotionIcon },
   salesforce: { all: SalesforceIcon },
   sendgrid: { all: SendGridIcon },
