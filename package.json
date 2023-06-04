@@ -7,14 +7,18 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "private": false,
-  "config": {
+  "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "prepublishOnly": "npm run build",
     "publish": "np minor"
   },
   "keywords": [
