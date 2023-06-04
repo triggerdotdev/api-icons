@@ -1,5 +1,5 @@
 import { forwardRef } from "react";
-import { SVGProps } from "../types";
+import { SVGProps } from "../../types";
 
 export const SlackIcon = forwardRef<SVGSVGElement, SVGProps>((props, ref) => (
   <svg
