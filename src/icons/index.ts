@@ -8,6 +8,8 @@ import { GitHubDarkIcon, GitHubLightIcon } from "./companies/github";
 export { GitHubDarkIcon, GitHubLightIcon };
 import { NotionIcon } from "./companies/notion";
 export { NotionIcon };
+import { SalesforceIcon } from "./companies/salesforce";
+export { SalesforceIcon };
 import { SendGridIcon } from "./companies/sendgrid";
 export { SendGridIcon };
 import { ShopifyIcon } from "./companies/shopify";
@@ -22,6 +24,7 @@ export const icons: Record<string, Icon> = {
   asana: { all: AsanaIcon },
   github: { light: GitHubLightIcon, dark: GitHubDarkIcon, default: "dark" },
   notion: { all: NotionIcon },
+  salesforce: { all: SalesforceIcon },
   sendgrid: { all: SendGridIcon },
   shopify: { all: ShopifyIcon },
   slack: { all: SlackIcon },
