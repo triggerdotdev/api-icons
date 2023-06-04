@@ -68,13 +68,6 @@ function App() {
 }
 ```
 
-## Icons
-
-The following icons are available:
-
-- airtable
-- asana
-
 ## Contributing
 
 We welcome new icon contributions and fixes. Please follow the steps below to contribute.
