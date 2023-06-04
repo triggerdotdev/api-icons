@@ -12,6 +12,8 @@ import { SendGridIcon } from "./companies/sendgrid";
 export { SendGridIcon };
 import { SlackIcon } from "./companies/slack";
 export { SlackIcon };
+import { StripeIcon } from "./companies/stripe";
+export { StripeIcon };
 
 export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
@@ -20,4 +22,5 @@ export const icons: Record<string, Icon> = {
   notion: { all: NotionIcon },
   sendgrid: { all: SendGridIcon },
   slack: { all: SlackIcon },
+  stripe: { all: StripeIcon },
 };
