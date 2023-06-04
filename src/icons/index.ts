@@ -8,6 +8,8 @@ import { GitHubDarkIcon, GitHubLightIcon } from "./companies/github";
 export { GitHubDarkIcon, GitHubLightIcon };
 import { HubspotIcon } from "./companies/hubspot";
 export { HubspotIcon };
+import { LinearDarkIcon, LinearLightIcon } from "./companies/linear";
+export { LinearDarkIcon, LinearLightIcon };
 import { NotionIcon } from "./companies/notion";
 export { NotionIcon };
 import { SalesforceIcon } from "./companies/salesforce";
@@ -28,6 +30,7 @@ export const icons: Record<string, Icon> = {
   asana: { all: AsanaIcon },
   github: { light: GitHubLightIcon, dark: GitHubDarkIcon, default: "dark" },
   hubspot: { all: HubspotIcon },
+  linear: { light: LinearLightIcon, dark: LinearDarkIcon, default: "light" },
   notion: { all: NotionIcon },
   salesforce: { all: SalesforceIcon },
   sendgrid: { all: SendGridIcon },
