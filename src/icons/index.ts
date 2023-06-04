@@ -14,6 +14,8 @@ import { LinearDarkIcon, LinearLightIcon } from "./companies/linear";
 export { LinearDarkIcon, LinearLightIcon };
 import { NotionIcon } from "./companies/notion";
 export { NotionIcon };
+import { OpenAIDarkIcon, OpenAILightIcon } from "./companies/openai";
+export { OpenAIDarkIcon, OpenAILightIcon };
 import { SalesforceIcon } from "./companies/salesforce";
 export { SalesforceIcon };
 import { SendGridIcon } from "./companies/sendgrid";
@@ -37,6 +39,7 @@ export const icons: Record<string, Icon> = {
   hubspot: { all: HubspotIcon },
   linear: { light: LinearLightIcon, dark: LinearDarkIcon, default: "light" },
   notion: { all: NotionIcon },
+  openai: { light: OpenAILightIcon, dark: OpenAIDarkIcon, default: "dark" },
   salesforce: { all: SalesforceIcon },
   sendgrid: { all: SendGridIcon },
   shopify: { all: ShopifyIcon },
