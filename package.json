@@ -1,12 +1,12 @@
 {
   "name": "@trigger.dev/companyicons",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Easily render company icons in your React app.",
   "homepage": "https://github.com/triggerdotdev/company-icons",
   "repository": "https://github.com/triggerdotdev/company-icons",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/types.d.ts",
   "files": [
     "/dist"
   ],
