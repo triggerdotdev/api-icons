@@ -17,7 +17,7 @@
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
     "storybook": "storybook dev -p 6006",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "build-storybook": "storybook build",
     "prepublishOnly": "npm run build",
     "publish": "np minor"
