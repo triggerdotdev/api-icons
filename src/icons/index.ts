@@ -4,6 +4,8 @@ import { AirtableIcon } from "./companies/airtable";
 export { AirtableIcon };
 import { AsanaIcon } from "./companies/asana";
 export { AsanaIcon };
+import { FacebookIcon } from "./companies/facebook";
+export { FacebookIcon };
 import { GitHubDarkIcon, GitHubLightIcon } from "./companies/github";
 export { GitHubDarkIcon, GitHubLightIcon };
 import { HubspotIcon } from "./companies/hubspot";
@@ -30,6 +32,7 @@ export { TwitterIcon };
 export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
   asana: { all: AsanaIcon },
+  facebook: { all: FacebookIcon },
   github: { light: GitHubLightIcon, dark: GitHubDarkIcon, default: "dark" },
   hubspot: { all: HubspotIcon },
   linear: { light: LinearLightIcon, dark: LinearDarkIcon, default: "light" },
