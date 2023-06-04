@@ -6,7 +6,7 @@ export const ShopifyIcon = forwardRef<SVGSVGElement, SVGProps>((props, ref) => (
     viewBox="0 0 100 100"
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
-    title="Stripe"
+    title="Shopify"
     {...props}
     ref={ref}
   >
