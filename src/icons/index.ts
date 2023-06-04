@@ -20,6 +20,8 @@ import { SlackIcon } from "./companies/slack";
 export { SlackIcon };
 import { StripeIcon } from "./companies/stripe";
 export { StripeIcon };
+import { TwilioIcon } from "./companies/twilio";
+export { TwilioIcon };
 
 export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
@@ -32,4 +34,5 @@ export const icons: Record<string, Icon> = {
   shopify: { all: ShopifyIcon },
   slack: { all: SlackIcon },
   stripe: { all: StripeIcon },
+  twilio: { all: TwilioIcon },
 };
