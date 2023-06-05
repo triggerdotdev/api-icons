@@ -10,6 +10,8 @@ import { FacebookIcon } from "./companies/facebook";
 export { FacebookIcon };
 import { GitHubDarkIcon, GitHubLightIcon } from "./companies/github";
 export { GitHubDarkIcon, GitHubLightIcon };
+import { GMailIcon } from "./companies/gmail";
+export { GMailIcon };
 import { GoogleCalendarIcon } from "./companies/googlecalendar";
 export { GoogleCalendarIcon };
 import { GoogleIcon } from "./companies/google";
@@ -45,6 +47,7 @@ export const icons: Record<string, Icon> = {
   discord: { all: DiscordIcon },
   facebook: { all: FacebookIcon },
   github: { light: GitHubLightIcon, dark: GitHubDarkIcon, default: "dark" },
+  gmail: { all: GMailIcon },
   google: { all: GoogleIcon },
   googlecalendar: { all: GoogleCalendarIcon },
   hubspot: { all: HubspotIcon },
