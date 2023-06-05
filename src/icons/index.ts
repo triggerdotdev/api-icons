@@ -12,6 +12,8 @@ import { HubspotIcon } from "./companies/hubspot";
 export { HubspotIcon };
 import { LinearDarkIcon, LinearLightIcon } from "./companies/linear";
 export { LinearDarkIcon, LinearLightIcon };
+import { MailgunIcon } from "./companies/mailgun";
+export { MailgunIcon };
 import { NotionIcon } from "./companies/notion";
 export { NotionIcon };
 import { OpenAIDarkIcon, OpenAILightIcon } from "./companies/openai";
@@ -38,6 +40,7 @@ export const icons: Record<string, Icon> = {
   github: { light: GitHubLightIcon, dark: GitHubDarkIcon, default: "dark" },
   hubspot: { all: HubspotIcon },
   linear: { light: LinearLightIcon, dark: LinearDarkIcon, default: "light" },
+  mailgun: { all: MailgunIcon },
   notion: { all: NotionIcon },
   openai: { light: OpenAILightIcon, dark: OpenAIDarkIcon, default: "dark" },
   salesforce: { all: SalesforceIcon },
