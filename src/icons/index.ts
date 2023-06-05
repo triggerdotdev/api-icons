@@ -14,6 +14,8 @@ import { GMailIcon } from "./companies/gmail";
 export { GMailIcon };
 import { GoogleCalendarIcon } from "./companies/googlecalendar";
 export { GoogleCalendarIcon };
+import { GoogleDocsIcon } from "./companies/googledocs";
+export { GoogleDocsIcon };
 import { GoogleIcon } from "./companies/google";
 export { GoogleIcon };
 import { HubspotIcon } from "./companies/hubspot";
@@ -50,6 +52,7 @@ export const icons: Record<string, Icon> = {
   gmail: { all: GMailIcon },
   google: { all: GoogleIcon },
   googlecalendar: { all: GoogleCalendarIcon },
+  googledocs: { all: GoogleDocsIcon },
   hubspot: { all: HubspotIcon },
   linear: { light: LinearLightIcon, dark: LinearDarkIcon, default: "light" },
   mailgun: { all: MailgunIcon },
