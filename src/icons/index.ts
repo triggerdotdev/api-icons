@@ -4,10 +4,14 @@ import { AirtableIcon } from "./companies/airtable";
 export { AirtableIcon };
 import { AsanaIcon } from "./companies/asana";
 export { AsanaIcon };
+import { DiscordIcon } from "./companies/discord";
+export { DiscordIcon };
 import { FacebookIcon } from "./companies/facebook";
 export { FacebookIcon };
 import { GitHubDarkIcon, GitHubLightIcon } from "./companies/github";
 export { GitHubDarkIcon, GitHubLightIcon };
+import { GoogleIcon } from "./companies/google";
+export { GoogleIcon };
 import { HubspotIcon } from "./companies/hubspot";
 export { HubspotIcon };
 import { LinearDarkIcon, LinearLightIcon } from "./companies/linear";
@@ -36,8 +40,10 @@ export { TwitterIcon };
 export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
   asana: { all: AsanaIcon },
+  discord: { all: DiscordIcon },
   facebook: { all: FacebookIcon },
   github: { light: GitHubLightIcon, dark: GitHubDarkIcon, default: "dark" },
+  google: { all: GoogleIcon },
   hubspot: { all: HubspotIcon },
   linear: { light: LinearLightIcon, dark: LinearDarkIcon, default: "light" },
   mailgun: { all: MailgunIcon },
