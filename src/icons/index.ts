@@ -51,6 +51,7 @@ import { FlickrIcon } from "./companies/flickr";
 import { DropBoxIcon } from "./companies/dropbox";
 import { LinkedInLogo } from "./companies/linkedin";
 import { GiphyIcon } from "./companies/giphy";
+import { TrelloIcon } from "./companies/trello";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -80,6 +81,7 @@ export const icons: Record<string, Icon> = {
   shopify: { all: ShopifyIcon },
   slack: { all: SlackIcon },
   stripe: { all: StripeIcon },
+  trello: { all: TrelloIcon },
   twilio: { all: TwilioIcon },
   twitter: { all: TwitterIcon },
   whatsapp: { all: WhatsAppIcon },
