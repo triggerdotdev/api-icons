@@ -52,6 +52,7 @@ import { DropBoxIcon } from "./companies/dropbox";
 import { LinkedInLogo } from "./companies/linkedin";
 import { GiphyIcon } from "./companies/giphy";
 import { TrelloIcon } from "./companies/trello";
+import { MailchimpLightIcon, MailchimpDarkIcon } from "./companies/mailchimp";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -72,6 +73,11 @@ export const icons: Record<string, Icon> = {
   instagram: { all: InstagramIcon },
   linear: { light: LinearLightIcon, dark: LinearDarkIcon, default: "light" },
   linkedin: { all: LinkedInLogo },
+  mailchimp: {
+    light: MailchimpLightIcon,
+    dark: MailchimpDarkIcon,
+    default: "light",
+  },
   mailgun: { all: MailgunIcon },
   notion: { all: NotionIcon },
   openai: { light: OpenAILightIcon, dark: OpenAIDarkIcon, default: "dark" },
