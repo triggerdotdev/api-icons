@@ -28,6 +28,8 @@ import { NotionIcon } from "./companies/notion";
 export { NotionIcon };
 import { OpenAIDarkIcon, OpenAILightIcon } from "./companies/openai";
 export { OpenAIDarkIcon, OpenAILightIcon };
+import { RedditIcon } from "./companies/reddit";
+export { RedditIcon };
 import { SalesforceIcon } from "./companies/salesforce";
 export { SalesforceIcon };
 import { SendGridIcon } from "./companies/sendgrid";
@@ -58,6 +60,7 @@ export const icons: Record<string, Icon> = {
   mailgun: { all: MailgunIcon },
   notion: { all: NotionIcon },
   openai: { light: OpenAILightIcon, dark: OpenAIDarkIcon, default: "dark" },
+  reddit: { all: RedditIcon },
   salesforce: { all: SalesforceIcon },
   sendgrid: { all: SendGridIcon },
   shopify: { all: ShopifyIcon },
