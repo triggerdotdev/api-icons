@@ -57,6 +57,7 @@ import { MicrosoftAzureIcon } from "./companies/microsoftazure";
 import { GoogleCloudPlatformIcon } from "./companies/googlecloudplatform";
 import { AWSLightIcon, AWSDarkIcon } from "./companies/aws";
 import { GoogleDriveIcon } from "./companies/googledrive";
+import { SpotifyIcon } from "./companies/spotify";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -92,6 +93,7 @@ export const icons: Record<string, Icon> = {
   reddit: { all: RedditIcon },
   salesforce: { all: SalesforceIcon },
   sendgrid: { all: SendGridIcon },
+  spotify: { all: SpotifyIcon },
   shopify: { all: ShopifyIcon },
   slack: { all: SlackIcon },
   stripe: { all: StripeIcon },
