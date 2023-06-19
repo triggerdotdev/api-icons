@@ -6,7 +6,7 @@ export const YouTubeIcon = forwardRef<SVGSVGElement, SVGProps>((props, ref) => (
     viewBox="0 0 240 240"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    title="Twitter"
+    title="YouTube"
     {...props}
     ref={ref}
   >
