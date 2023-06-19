@@ -43,6 +43,7 @@ export { StripeIcon };
 import { TwilioIcon } from "./companies/twilio";
 export { TwilioIcon };
 import { TwitterIcon } from "./companies/twitter";
+import { YouTubeIcon } from "./companies/youtube";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -68,4 +69,5 @@ export const icons: Record<string, Icon> = {
   stripe: { all: StripeIcon },
   twilio: { all: TwilioIcon },
   twitter: { all: TwitterIcon },
+  youtube: { all: YouTubeIcon },
 };
