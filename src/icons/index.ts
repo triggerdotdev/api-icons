@@ -50,6 +50,7 @@ import { GoogleMapsIcon } from "./companies/googlemaps";
 import { FlickrIcon } from "./companies/flickr";
 import { DropBoxIcon } from "./companies/dropbox";
 import { LinkedInLogo } from "./companies/linkedin";
+import { GiphyIcon } from "./companies/giphy";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -60,6 +61,7 @@ export const icons: Record<string, Icon> = {
   facebook: { all: FacebookIcon },
   flickr: { all: FlickrIcon },
   github: { light: GitHubLightIcon, dark: GitHubDarkIcon, default: "dark" },
+  giphy: { all: GiphyIcon },
   gmail: { all: GMailIcon },
   google: { all: GoogleIcon },
   googlecalendar: { all: GoogleCalendarIcon },
