@@ -47,6 +47,7 @@ import { YouTubeIcon } from "./companies/youtube";
 import { InstagramIcon } from "./companies/instagram";
 import { WhatsAppIcon } from "./companies/whatsapp";
 import { GoogleMapsIcon } from "./companies/googlemaps";
+import { FlickrIcon } from "./companies/flickr";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -54,6 +55,7 @@ export const icons: Record<string, Icon> = {
   asana: { all: AsanaIcon },
   discord: { all: DiscordIcon },
   facebook: { all: FacebookIcon },
+  flickr: { all: FlickrIcon },
   github: { light: GitHubLightIcon, dark: GitHubDarkIcon, default: "dark" },
   gmail: { all: GMailIcon },
   google: { all: GoogleIcon },
