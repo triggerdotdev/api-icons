@@ -48,12 +48,14 @@ import { InstagramIcon } from "./companies/instagram";
 import { WhatsAppIcon } from "./companies/whatsapp";
 import { GoogleMapsIcon } from "./companies/googlemaps";
 import { FlickrIcon } from "./companies/flickr";
+import { DropBoxIcon } from "./companies/dropbox";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
   asana: { all: AsanaIcon },
   discord: { all: DiscordIcon },
+  dropbox: { all: DropBoxIcon },
   facebook: { all: FacebookIcon },
   flickr: { all: FlickrIcon },
   github: { light: GitHubLightIcon, dark: GitHubDarkIcon, default: "dark" },
