@@ -45,6 +45,7 @@ export { TwilioIcon };
 import { TwitterIcon } from "./companies/twitter";
 import { YouTubeIcon } from "./companies/youtube";
 import { InstagramIcon } from "./companies/instagram";
+import { WhatsAppIcon } from "./companies/whatsapp";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -71,5 +72,6 @@ export const icons: Record<string, Icon> = {
   stripe: { all: StripeIcon },
   twilio: { all: TwilioIcon },
   twitter: { all: TwitterIcon },
+  whatsapp: { all: WhatsAppIcon },
   youtube: { all: YouTubeIcon },
 };
