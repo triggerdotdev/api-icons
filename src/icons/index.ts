@@ -55,11 +55,13 @@ import { TrelloIcon } from "./companies/trello";
 import { MailchimpLightIcon, MailchimpDarkIcon } from "./companies/mailchimp";
 import { MicrosoftAzureIcon } from "./companies/microsoftazure";
 import { GoogleCloudPlatformIcon } from "./companies/googlecloudplatform";
+import { AWSLightIcon, AWSDarkIcon } from "./companies/aws";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
   asana: { all: AsanaIcon },
+  aws: { light: AWSLightIcon, dark: AWSDarkIcon, default: "dark" },
   discord: { all: DiscordIcon },
   dropbox: { all: DropBoxIcon },
   facebook: { all: FacebookIcon },
