@@ -49,6 +49,7 @@ import { WhatsAppIcon } from "./companies/whatsapp";
 import { GoogleMapsIcon } from "./companies/googlemaps";
 import { FlickrIcon } from "./companies/flickr";
 import { DropBoxIcon } from "./companies/dropbox";
+import { LinkedInLogo } from "./companies/linkedin";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -67,6 +68,7 @@ export const icons: Record<string, Icon> = {
   hubspot: { all: HubspotIcon },
   instagram: { all: InstagramIcon },
   linear: { light: LinearLightIcon, dark: LinearDarkIcon, default: "light" },
+  linkedin: { all: LinkedInLogo },
   mailgun: { all: MailgunIcon },
   notion: { all: NotionIcon },
   openai: { light: OpenAILightIcon, dark: OpenAIDarkIcon, default: "dark" },
