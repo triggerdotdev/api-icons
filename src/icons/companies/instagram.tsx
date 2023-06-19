@@ -10,7 +10,7 @@ export const InstagramIcon = forwardRef<SVGSVGElement, SVGProps>(
       {...props}
       ref={ref}
     >
-      <g clip-path="url(#clip0_4024_58297)">
+      <g>
         <path
           d="M120.039 0C69.9403 0 55.2882 0.0517032 52.4402 0.287999C42.1591 1.14284 35.7615 2.76208 28.7917 6.23305C23.4205 8.90106 19.1843 11.9936 15.0035 16.3287C7.3896 24.2346 2.77507 33.961 1.10458 45.5226C0.292467 51.1354 0.0561688 52.28 0.00818394 80.9496C-0.0102299 90.5061 0.00818394 103.083 0.00818394 119.953C0.00818394 170.025 0.0635159 184.666 0.303531 187.509C1.13415 197.516 2.70305 203.812 6.02552 210.699C12.3751 223.882 24.502 233.778 38.7886 237.471C43.7354 238.745 49.199 239.446 56.213 239.778C59.1848 239.908 89.4744 240 119.783 240C150.091 240 180.399 239.963 183.297 239.815C191.418 239.433 196.134 238.8 201.349 237.452C215.728 233.741 227.633 223.992 234.112 210.625C237.37 203.905 239.022 197.369 239.769 187.884C239.932 185.816 240 152.847 240 119.922C240 86.9907 239.926 54.0821 239.764 52.0142C239.007 42.3765 237.355 35.896 233.992 29.0461C231.232 23.4389 228.168 19.2514 223.72 14.9699C215.781 7.38523 206.072 2.76943 194.503 1.10039C188.897 0.289815 187.78 0.0497991 159.096 0H120.039Z"
           fill="url(#paint0_radial_4024_58297)"
@@ -41,8 +41,8 @@ export const InstagramIcon = forwardRef<SVGSVGElement, SVGProps>(
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(232.25 112.491) rotate(164.25) scale(153.346 110.479)"
         >
-          <stop stop-color="#FF005F" />
-          <stop offset="1" stop-color="#FC01D8" />
+          <stop stopColor="#FF005F" />
+          <stop offset="1" stopColor="#FC01D8" />
         </radialGradient>
         <radialGradient
           id="paint1_radial_4024_58297"
@@ -52,11 +52,11 @@ export const InstagramIcon = forwardRef<SVGSVGElement, SVGProps>(
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(63.7482 258.485) rotate(-90) scale(191.573 203.254)"
         >
-          <stop stop-color="#FFCC00" />
-          <stop offset="0.1242" stop-color="#FFCC00" />
-          <stop offset="0.5672" stop-color="#FE4A05" />
-          <stop offset="0.6942" stop-color="#FF0F3F" />
-          <stop offset="1" stop-color="#FE0657" stop-opacity="0" />
+          <stop stopColor="#FFCC00" />
+          <stop offset="0.1242" stopColor="#FFCC00" />
+          <stop offset="0.5672" stopColor="#FE4A05" />
+          <stop offset="0.6942" stopColor="#FF0F3F" />
+          <stop offset="1" stopColor="#FE0657" stopOpacity="0" />
         </radialGradient>
         <radialGradient
           id="paint2_radial_4024_58297"
@@ -66,8 +66,8 @@ export const InstagramIcon = forwardRef<SVGSVGElement, SVGProps>(
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(126.065 236.615) rotate(-59.8703) scale(79.2169 103.132)"
         >
-          <stop stop-color="#FFCC00" />
-          <stop offset="1" stop-color="#FFCC00" stop-opacity="0" />
+          <stop stopColor="#FFCC00" />
+          <stop offset="1" stopColor="#FFCC00" stopOpacity="0" />
         </radialGradient>
         <radialGradient
           id="paint3_radial_4024_58297"
@@ -77,12 +77,9 @@ export const InstagramIcon = forwardRef<SVGSVGElement, SVGProps>(
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(32.5629 9.77273) rotate(164.274) scale(151.645 51.6655)"
         >
-          <stop stop-color="#780CFF" />
-          <stop offset="1" stop-color="#820BFF" stop-opacity="0" />
+          <stop stopColor="#780CFF" />
+          <stop offset="1" stopColor="#820BFF" stopOpacity="0" />
         </radialGradient>
-        <clipPath id="clip0_4024_58297">
-          <rect width="240" height="240" fill="white" />
-        </clipPath>
       </defs>
     </svg>
   )

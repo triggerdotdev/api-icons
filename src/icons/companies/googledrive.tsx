@@ -11,7 +11,7 @@ export const GoogleDriveIcon = forwardRef<SVGSVGElement, SVGProps>(
       {...props}
       ref={ref}
     >
-      <g clip-path="url(#clip0_4027_58524)">
+      <g>
         <path
           d="M164.441 158.729L174.876 194.708L202.221 224.156C205.919 222.026 209.068 218.932 211.281 215.096L236.687 171.103C238.901 167.281 240.001 163.005 240.001 158.729L200.984 151.168L164.441 158.729Z"
           fill="#EA4335"

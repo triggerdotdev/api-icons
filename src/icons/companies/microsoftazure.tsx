@@ -36,8 +36,8 @@ export const MicrosoftAzureIcon = forwardRef<SVGSVGElement, SVGProps>(
           y2="241.648"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#114A8B" />
-          <stop offset="1" stop-color="#0669BC" />
+          <stop stopColor="#114A8B" />
+          <stop offset="1" stopColor="#0669BC" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_4027_58416"
@@ -47,11 +47,11 @@ export const MicrosoftAzureIcon = forwardRef<SVGSVGElement, SVGProps>(
           y2="131.07"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-opacity="0.3" />
-          <stop offset="0.071" stop-opacity="0.2" />
-          <stop offset="0.321" stop-opacity="0.1" />
-          <stop offset="0.623" stop-opacity="0.05" />
-          <stop offset="1" stop-opacity="0" />
+          <stop stopOpacity="0.3" />
+          <stop offset="0.071" stopOpacity="0.2" />
+          <stop offset="0.321" stopOpacity="0.1" />
+          <stop offset="0.623" stopOpacity="0.05" />
+          <stop offset="1" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_4027_58416"
@@ -61,8 +61,8 @@ export const MicrosoftAzureIcon = forwardRef<SVGSVGElement, SVGProps>(
           y2="233.097"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3CCBF4" />
-          <stop offset="1" stop-color="#2892DF" />
+          <stop stopColor="#3CCBF4" />
+          <stop offset="1" stopColor="#2892DF" />
         </linearGradient>
       </defs>
     </svg>

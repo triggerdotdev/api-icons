@@ -10,9 +10,9 @@ export const GiphyIcon = forwardRef<SVGSVGElement, SVGProps>((props, ref) => (
     {...props}
     ref={ref}
   >
-    <g fill="none" fill-rule="evenodd">
+    <g fill="none" fillRule="evenodd">
       <path d="M6.331 4.286H17.99v15.428H6.33z" fill="#000" />
-      <g fill-rule="nonzero">
+      <g fillRule="nonzero">
         <path d="M4 3.714h2.331v16.572H4z" fill="#04ff8e" />
         <path d="M17.989 8.286h2.331v12h-2.331z" fill="#8e2eff" />
         <path d="M4 19.714h16.32V22H4z" fill="#00c5ff" />

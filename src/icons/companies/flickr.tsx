@@ -10,7 +10,7 @@ export const FlickrIcon = forwardRef<SVGSVGElement, SVGProps>((props, ref) => (
     {...props}
     ref={ref}
   >
-    <g clip-path="url(#clip0_4027_58329)">
+    <g>
       <path
         d="M128.659 119.998C128.659 150.917 153.587 175.988 184.335 175.988C215.077 175.988 240 150.917 240 119.998C240 89.0787 215.077 64.0127 184.335 64.0127C153.587 64.0127 128.659 89.0787 128.659 119.998Z"
         fill="#FF0084"
@@ -20,15 +20,5 @@ export const FlickrIcon = forwardRef<SVGSVGElement, SVGProps>((props, ref) => (
         fill="#0063DC"
       />
     </g>
-    <defs>
-      <clipPath id="clip0_4027_58329">
-        <rect
-          width="240"
-          height="112"
-          fill="white"
-          transform="translate(0 64)"
-        />
-      </clipPath>
-    </defs>
   </svg>
 ));
