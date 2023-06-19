@@ -53,6 +53,7 @@ import { LinkedInLogo } from "./companies/linkedin";
 import { GiphyIcon } from "./companies/giphy";
 import { TrelloIcon } from "./companies/trello";
 import { MailchimpLightIcon, MailchimpDarkIcon } from "./companies/mailchimp";
+import { MicrosoftAzureIcon } from "./companies/microsoftazure";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -76,9 +77,10 @@ export const icons: Record<string, Icon> = {
   mailchimp: {
     light: MailchimpLightIcon,
     dark: MailchimpDarkIcon,
-    default: "light",
+    default: "dark",
   },
   mailgun: { all: MailgunIcon },
+  microsoftazure: { all: MicrosoftAzureIcon },
   notion: { all: NotionIcon },
   openai: { light: OpenAILightIcon, dark: OpenAIDarkIcon, default: "dark" },
   reddit: { all: RedditIcon },
