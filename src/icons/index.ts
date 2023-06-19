@@ -44,6 +44,7 @@ import { TwilioIcon } from "./companies/twilio";
 export { TwilioIcon };
 import { TwitterIcon } from "./companies/twitter";
 import { YouTubeIcon } from "./companies/youtube";
+import { InstagramIcon } from "./companies/instagram";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -57,6 +58,7 @@ export const icons: Record<string, Icon> = {
   googlecalendar: { all: GoogleCalendarIcon },
   googledocs: { all: GoogleDocsIcon },
   hubspot: { all: HubspotIcon },
+  instagram: { all: InstagramIcon },
   linear: { light: LinearLightIcon, dark: LinearDarkIcon, default: "light" },
   mailgun: { all: MailgunIcon },
   notion: { all: NotionIcon },
