@@ -46,6 +46,7 @@ import { TwitterIcon } from "./companies/twitter";
 import { YouTubeIcon } from "./companies/youtube";
 import { InstagramIcon } from "./companies/instagram";
 import { WhatsAppIcon } from "./companies/whatsapp";
+import { GoogleMapsIcon } from "./companies/googlemaps";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -58,6 +59,7 @@ export const icons: Record<string, Icon> = {
   google: { all: GoogleIcon },
   googlecalendar: { all: GoogleCalendarIcon },
   googledocs: { all: GoogleDocsIcon },
+  googlemaps: { all: GoogleMapsIcon },
   hubspot: { all: HubspotIcon },
   instagram: { all: InstagramIcon },
   linear: { light: LinearLightIcon, dark: LinearDarkIcon, default: "light" },
