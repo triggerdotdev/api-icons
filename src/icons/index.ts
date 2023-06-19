@@ -54,6 +54,7 @@ import { GiphyIcon } from "./companies/giphy";
 import { TrelloIcon } from "./companies/trello";
 import { MailchimpLightIcon, MailchimpDarkIcon } from "./companies/mailchimp";
 import { MicrosoftAzureIcon } from "./companies/microsoftazure";
+import { GoogleCloudPlatformIcon } from "./companies/googlecloudplatform";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -68,6 +69,7 @@ export const icons: Record<string, Icon> = {
   gmail: { all: GMailIcon },
   google: { all: GoogleIcon },
   googlecalendar: { all: GoogleCalendarIcon },
+  googlecloudplatform: { all: GoogleCloudPlatformIcon },
   googledocs: { all: GoogleDocsIcon },
   googlemaps: { all: GoogleMapsIcon },
   hubspot: { all: HubspotIcon },
