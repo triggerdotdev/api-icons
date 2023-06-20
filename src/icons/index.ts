@@ -66,6 +66,7 @@ import { InfisicalIcon } from "./companies/infisical";
 import { LoopsIcon } from "./companies/loops";
 import { PlainIcon } from "./companies/plain";
 import { SegmentIcon } from "./companies/segment";
+import { SupabaseIcon } from "./companies/supabase";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -113,6 +114,7 @@ export const icons: Record<string, Icon> = {
   shopify: { all: ShopifyIcon },
   slack: { all: SlackIcon },
   stripe: { all: StripeIcon },
+  supabase: { all: SupabaseIcon },
   trello: { all: TrelloIcon },
   twilio: { all: TwilioIcon },
   twitter: { all: TwitterIcon },
