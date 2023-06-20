@@ -58,10 +58,12 @@ import { GoogleCloudPlatformIcon } from "./companies/googlecloudplatform";
 import { AWSLightIcon, AWSDarkIcon } from "./companies/aws";
 import { GoogleDriveIcon } from "./companies/googledrive";
 import { SpotifyIcon } from "./companies/spotify";
+import { AlgoliaIcon } from "./companies/algolia";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
+  algolia: { all: AlgoliaIcon },
   asana: { all: AsanaIcon },
   aws: { light: AWSLightIcon, dark: AWSDarkIcon, default: "dark" },
   discord: { all: DiscordIcon },
