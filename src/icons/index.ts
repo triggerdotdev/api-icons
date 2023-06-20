@@ -60,6 +60,7 @@ import { GoogleDriveIcon } from "./companies/googledrive";
 import { SpotifyIcon } from "./companies/spotify";
 import { AlgoliaIcon } from "./companies/algolia";
 import { AppsmithIcon } from "./companies/appsmith";
+import { ClickUpIcon } from "./companies/clickup";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -68,6 +69,7 @@ export const icons: Record<string, Icon> = {
   appsmith: { all: AppsmithIcon },
   asana: { all: AsanaIcon },
   aws: { light: AWSLightIcon, dark: AWSDarkIcon, default: "dark" },
+  clickup: { all: ClickUpIcon },
   discord: { all: DiscordIcon },
   dropbox: { all: DropBoxIcon },
   facebook: { all: FacebookIcon },
