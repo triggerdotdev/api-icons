@@ -63,6 +63,9 @@ import { AppsmithIcon } from "./companies/appsmith";
 import { ClickUpIcon } from "./companies/clickup";
 import { CodaIcon } from "./companies/coda";
 import { InfisicalIcon } from "./companies/infisical";
+import { LoopsIcon } from "./companies/loops";
+import { PlainIcon } from "./companies/plain";
+import { SegmentIcon } from "./companies/segment";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -91,6 +94,7 @@ export const icons: Record<string, Icon> = {
   instagram: { all: InstagramIcon },
   linear: { light: LinearLightIcon, dark: LinearDarkIcon, default: "light" },
   linkedin: { all: LinkedInLogo },
+  loops: { all: LoopsIcon },
   mailchimp: {
     light: MailchimpLightIcon,
     dark: MailchimpDarkIcon,
@@ -99,9 +103,11 @@ export const icons: Record<string, Icon> = {
   mailgun: { all: MailgunIcon },
   microsoftazure: { all: MicrosoftAzureIcon },
   notion: { all: NotionIcon },
+  plain: { all: PlainIcon },
   openai: { light: OpenAILightIcon, dark: OpenAIDarkIcon, default: "dark" },
   reddit: { all: RedditIcon },
   salesforce: { all: SalesforceIcon },
+  segment: { all: SegmentIcon },
   sendgrid: { all: SendGridIcon },
   spotify: { all: SpotifyIcon },
   shopify: { all: ShopifyIcon },
