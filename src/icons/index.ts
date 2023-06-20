@@ -68,12 +68,18 @@ import { PlainIcon } from "./companies/plain";
 import { SegmentIcon } from "./companies/segment";
 import { SupabaseIcon } from "./companies/supabase";
 import { SvixIcon } from "./companies/svix";
+import { AnthropicDarkIcon, AnthropicLightIcon } from "./companies/anthropic";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
   algolia: { all: AlgoliaIcon },
   appsmith: { all: AppsmithIcon },
+  anthropic: {
+    light: AnthropicLightIcon,
+    dark: AnthropicDarkIcon,
+    default: "dark",
+  },
   asana: { all: AsanaIcon },
   aws: { light: AWSLightIcon, dark: AWSDarkIcon, default: "dark" },
   coda: { all: CodaIcon },
