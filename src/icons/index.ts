@@ -62,6 +62,7 @@ import { AlgoliaIcon } from "./companies/algolia";
 import { AppsmithIcon } from "./companies/appsmith";
 import { ClickUpIcon } from "./companies/clickup";
 import { CodaIcon } from "./companies/coda";
+import { InfisicalIcon } from "./companies/infisical";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -86,6 +87,7 @@ export const icons: Record<string, Icon> = {
   googledrive: { all: GoogleDriveIcon },
   googlemaps: { all: GoogleMapsIcon },
   hubspot: { all: HubspotIcon },
+  infisical: { all: InfisicalIcon },
   instagram: { all: InstagramIcon },
   linear: { light: LinearLightIcon, dark: LinearDarkIcon, default: "light" },
   linkedin: { all: LinkedInLogo },
