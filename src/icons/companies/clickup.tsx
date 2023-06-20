@@ -19,14 +19,14 @@ export const ClickUpIcon = forwardRef<SVGSVGElement, SVGProps>((props, ref) => (
       fill="white"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M49.6875 164.571L75.643 144.69C89.4263 162.686 104.064 170.978 120.374 170.978C136.595 170.978 150.829 162.78 163.995 144.928L190.308 164.333C171.325 190.072 147.709 203.672 120.374 203.672C93.1294 203.672 69.2942 190.168 49.6875 164.571Z"
       fill="url(#paint0_linear_4117_57329)"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M120.286 78.1589L74.089 117.966L52.7471 93.1981L120.378 34.9219L187.482 93.2436L166.035 117.921L120.286 78.1589Z"
       fill="url(#paint1_linear_4117_57329)"
     />
@@ -39,8 +39,8 @@ export const ClickUpIcon = forwardRef<SVGSVGElement, SVGProps>((props, ref) => (
       y2="184.802"
       gradientUnits="userSpaceOnUse"
     >
-      <stop stop-color="#8930FD" />
-      <stop offset="1" stop-color="#49CCF9" />
+      <stop stopColor="#8930FD" />
+      <stop offset="1" stopColor="#49CCF9" />
     </linearGradient>
     <linearGradient
       id="paint1_linear_4117_57329"
@@ -50,8 +50,8 @@ export const ClickUpIcon = forwardRef<SVGSVGElement, SVGProps>((props, ref) => (
       y2="91.3968"
       gradientUnits="userSpaceOnUse"
     >
-      <stop stop-color="#FF02F0" />
-      <stop offset="1" stop-color="#FFC800" />
+      <stop stopColor="#FF02F0" />
+      <stop offset="1" stopColor="#FFC800" />
     </linearGradient>
   </svg>
 ));
