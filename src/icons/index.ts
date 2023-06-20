@@ -69,6 +69,8 @@ import { SegmentIcon } from "./companies/segment";
 import { SupabaseIcon } from "./companies/supabase";
 import { SvixIcon } from "./companies/svix";
 import { AnthropicDarkIcon, AnthropicLightIcon } from "./companies/anthropic";
+import { CalDotComDarkIcon, CalDotComLightIcon } from "./companies/caldotcom";
+import { MuxLightIcon, MuxDarkIcon } from "./companies/mux";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -82,6 +84,7 @@ export const icons: Record<string, Icon> = {
   },
   asana: { all: AsanaIcon },
   aws: { light: AWSLightIcon, dark: AWSDarkIcon, default: "dark" },
+  cal: { light: CalDotComLightIcon, dark: CalDotComDarkIcon, default: "dark" },
   coda: { all: CodaIcon },
   clickup: { all: ClickUpIcon },
   discord: { all: DiscordIcon },
@@ -109,6 +112,7 @@ export const icons: Record<string, Icon> = {
     default: "dark",
   },
   mailgun: { all: MailgunIcon },
+  mux: { light: MuxLightIcon, dark: MuxDarkIcon, default: "dark" },
   microsoftazure: { all: MicrosoftAzureIcon },
   notion: { all: NotionIcon },
   plain: { all: PlainIcon },
