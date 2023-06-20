@@ -71,6 +71,7 @@ import { SvixIcon } from "./companies/svix";
 import { AnthropicDarkIcon, AnthropicLightIcon } from "./companies/anthropic";
 import { CalDotComDarkIcon, CalDotComLightIcon } from "./companies/caldotcom";
 import { MuxLightIcon, MuxDarkIcon } from "./companies/mux";
+import { PosthogDarkIcon, PosthogLightIcon } from "./companies/posthog";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -115,6 +116,7 @@ export const icons: Record<string, Icon> = {
   mux: { light: MuxLightIcon, dark: MuxDarkIcon, default: "dark" },
   microsoftazure: { all: MicrosoftAzureIcon },
   notion: { all: NotionIcon },
+  posthog: { light: PosthogLightIcon, dark: PosthogDarkIcon, default: "dark" },
   plain: { all: PlainIcon },
   openai: { light: OpenAILightIcon, dark: OpenAIDarkIcon, default: "dark" },
   reddit: { all: RedditIcon },
