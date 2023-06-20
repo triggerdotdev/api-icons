@@ -72,6 +72,7 @@ import { AnthropicDarkIcon, AnthropicLightIcon } from "./companies/anthropic";
 import { CalDotComDarkIcon, CalDotComLightIcon } from "./companies/caldotcom";
 import { MuxLightIcon, MuxDarkIcon } from "./companies/mux";
 import { PosthogDarkIcon, PosthogLightIcon } from "./companies/posthog";
+import { ReplicateLightIcon, ReplicateDarkIcon } from "./companies/replicate";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -120,6 +121,11 @@ export const icons: Record<string, Icon> = {
   plain: { all: PlainIcon },
   openai: { light: OpenAILightIcon, dark: OpenAIDarkIcon, default: "dark" },
   reddit: { all: RedditIcon },
+  replicate: {
+    light: ReplicateLightIcon,
+    dark: ReplicateDarkIcon,
+    default: "dark",
+  },
   salesforce: { all: SalesforceIcon },
   segment: { all: SegmentIcon },
   sendgrid: { all: SendGridIcon },
