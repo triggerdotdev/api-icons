@@ -59,11 +59,13 @@ import { AWSLightIcon, AWSDarkIcon } from "./companies/aws";
 import { GoogleDriveIcon } from "./companies/googledrive";
 import { SpotifyIcon } from "./companies/spotify";
 import { AlgoliaIcon } from "./companies/algolia";
+import { AppsmithIcon } from "./companies/appsmith";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
   algolia: { all: AlgoliaIcon },
+  appsmith: { all: AppsmithIcon },
   asana: { all: AsanaIcon },
   aws: { light: AWSLightIcon, dark: AWSDarkIcon, default: "dark" },
   discord: { all: DiscordIcon },
