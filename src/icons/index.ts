@@ -73,6 +73,10 @@ import { CalDotComDarkIcon, CalDotComLightIcon } from "./companies/caldotcom";
 import { MuxLightIcon, MuxDarkIcon } from "./companies/mux";
 import { PosthogDarkIcon, PosthogLightIcon } from "./companies/posthog";
 import { ReplicateLightIcon, ReplicateDarkIcon } from "./companies/replicate";
+import {
+  TriggerDotDevDarkIcon,
+  TriggerDotDevLightIcon,
+} from "./companies/triggerdotdev";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -86,7 +90,11 @@ export const icons: Record<string, Icon> = {
   },
   asana: { all: AsanaIcon },
   aws: { light: AWSLightIcon, dark: AWSDarkIcon, default: "dark" },
-  cal: { light: CalDotComLightIcon, dark: CalDotComDarkIcon, default: "dark" },
+  caldotcom: {
+    light: CalDotComLightIcon,
+    dark: CalDotComDarkIcon,
+    default: "dark",
+  },
   coda: { all: CodaIcon },
   clickup: { all: ClickUpIcon },
   discord: { all: DiscordIcon },
@@ -136,6 +144,11 @@ export const icons: Record<string, Icon> = {
   supabase: { all: SupabaseIcon },
   svix: { all: SvixIcon },
   trello: { all: TrelloIcon },
+  triggerdotdev: {
+    light: TriggerDotDevLightIcon,
+    dark: TriggerDotDevDarkIcon,
+    default: "dark",
+  },
   twilio: { all: TwilioIcon },
   twitter: { all: TwitterIcon },
   whatsapp: { all: WhatsAppIcon },
