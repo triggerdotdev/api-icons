@@ -81,6 +81,7 @@ import {
   CodeSandboxDarkIcon,
   CodeSandboxLightIcon,
 } from "./companies/codesandbox";
+import { MondayIcon } from "./companies/Monday";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -131,6 +132,7 @@ export const icons: Record<string, Icon> = {
     default: "dark",
   },
   mailgun: { all: MailgunIcon },
+  monday: { all: MondayIcon },
   mux: { light: MuxLightIcon, dark: MuxDarkIcon, default: "dark" },
   microsoftazure: { all: MicrosoftAzureIcon },
   notion: { all: NotionIcon },
