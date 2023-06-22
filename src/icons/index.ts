@@ -77,6 +77,10 @@ import {
   TriggerDotDevDarkIcon,
   TriggerDotDevLightIcon,
 } from "./companies/triggerdotdev";
+import {
+  CodeSandboxDarkIcon,
+  CodeSandboxLightIcon,
+} from "./companies/codesandbox";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -96,6 +100,11 @@ export const icons: Record<string, Icon> = {
     default: "dark",
   },
   coda: { all: CodaIcon },
+  codesandbox: {
+    light: CodeSandboxLightIcon,
+    dark: CodeSandboxDarkIcon,
+    default: "dark",
+  },
   clickup: { all: ClickUpIcon },
   discord: { all: DiscordIcon },
   dropbox: { all: DropBoxIcon },
