@@ -1,5 +1,4 @@
 import { Icon } from "../types";
-
 import { AirtableIcon } from "./companies/airtable";
 export { AirtableIcon };
 import { AsanaIcon } from "./companies/asana";
@@ -43,47 +42,82 @@ export { StripeIcon };
 import { TwilioIcon } from "./companies/twilio";
 export { TwilioIcon };
 import { TwitterIcon } from "./companies/twitter";
+export { TwitterIcon };
 import { YouTubeIcon } from "./companies/youtube";
+export { YouTubeIcon };
 import { InstagramIcon } from "./companies/instagram";
+export { InstagramIcon };
 import { WhatsAppIcon } from "./companies/whatsapp";
+export { WhatsAppIcon };
 import { GoogleMapsIcon } from "./companies/googlemaps";
+export { GoogleMapsIcon };
 import { FlickrIcon } from "./companies/flickr";
+export { FlickrIcon };
 import { DropBoxIcon } from "./companies/dropbox";
+export { DropBoxIcon };
 import { LinkedInLogo } from "./companies/linkedin";
+export { LinkedInLogo };
 import { GiphyIcon } from "./companies/giphy";
+export { GiphyIcon };
 import { TrelloIcon } from "./companies/trello";
+export { TrelloIcon };
 import { MailchimpLightIcon, MailchimpDarkIcon } from "./companies/mailchimp";
+export { MailchimpLightIcon, MailchimpDarkIcon };
 import { MicrosoftAzureIcon } from "./companies/microsoftazure";
+export { MicrosoftAzureIcon };
 import { GoogleCloudPlatformIcon } from "./companies/googlecloudplatform";
+export { GoogleCloudPlatformIcon };
 import { AWSLightIcon, AWSDarkIcon } from "./companies/aws";
+export { AWSLightIcon, AWSDarkIcon };
 import { GoogleDriveIcon } from "./companies/googledrive";
+export { GoogleDriveIcon };
 import { SpotifyIcon } from "./companies/spotify";
+export { SpotifyIcon };
 import { AlgoliaIcon } from "./companies/algolia";
+export { AlgoliaIcon };
 import { AppsmithIcon } from "./companies/appsmith";
+export { AppsmithIcon };
 import { ClickUpIcon } from "./companies/clickup";
+export { ClickUpIcon };
 import { CodaIcon } from "./companies/coda";
+export { CodaIcon };
 import { InfisicalIcon } from "./companies/infisical";
+export { InfisicalIcon };
 import { LoopsIcon } from "./companies/loops";
+export { LoopsIcon };
 import { PlainIcon } from "./companies/plain";
+export { PlainIcon };
 import { SegmentIcon } from "./companies/segment";
+export { SegmentIcon };
 import { SupabaseIcon } from "./companies/supabase";
+export { SupabaseIcon };
 import { SvixIcon } from "./companies/svix";
+export { SvixIcon };
 import { AnthropicDarkIcon, AnthropicLightIcon } from "./companies/anthropic";
+export { AnthropicDarkIcon, AnthropicLightIcon };
 import { CalDotComDarkIcon, CalDotComLightIcon } from "./companies/caldotcom";
+export { CalDotComDarkIcon, CalDotComLightIcon };
 import { MuxLightIcon, MuxDarkIcon } from "./companies/mux";
+export { MuxLightIcon, MuxDarkIcon };
 import { PosthogDarkIcon, PosthogLightIcon } from "./companies/posthog";
+export { PosthogDarkIcon, PosthogLightIcon };
 import { ReplicateLightIcon, ReplicateDarkIcon } from "./companies/replicate";
+export { ReplicateLightIcon, ReplicateDarkIcon };
 import {
   TriggerDotDevDarkIcon,
   TriggerDotDevLightIcon,
 } from "./companies/triggerdotdev";
+export { TriggerDotDevDarkIcon, TriggerDotDevLightIcon };
+
 import {
   CodeSandboxDarkIcon,
   CodeSandboxLightIcon,
 } from "./companies/codesandbox";
+export { CodeSandboxDarkIcon, CodeSandboxLightIcon };
 import { MondayIcon } from "./companies/Monday";
+export { MondayIcon };
 import { ResendIcon } from "./companies/resend";
-export { TwitterIcon };
+export { ResendIcon };
 
 export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
