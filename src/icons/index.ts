@@ -82,6 +82,7 @@ import {
   CodeSandboxLightIcon,
 } from "./companies/codesandbox";
 import { MondayIcon } from "./companies/Monday";
+import { ResendIcon } from "./companies/resend";
 export { TwitterIcon };
 
 export const icons: Record<string, Icon> = {
@@ -145,6 +146,7 @@ export const icons: Record<string, Icon> = {
     dark: ReplicateDarkIcon,
     default: "dark",
   },
+  resend: { all: ResendIcon },
   salesforce: { all: SalesforceIcon },
   segment: { all: SegmentIcon },
   sendgrid: { all: SendGridIcon },
