@@ -118,6 +118,8 @@ import { MondayIcon } from "./companies/monday";
 export { MondayIcon };
 import { ResendIcon } from "./companies/resend";
 import { NextjsLightIcon, NextjsDarkIcon } from "./companies/nextjs";
+import { ReactIcon } from "./companies/react";
+export { ReactIcon };
 export { NextjsLightIcon, NextjsDarkIcon };
 export { ResendIcon };
 
@@ -177,6 +179,7 @@ export const icons: Record<string, Icon> = {
   posthog: { light: PosthogLightIcon, dark: PosthogDarkIcon, default: "dark" },
   plain: { all: PlainIcon },
   openai: { light: OpenAILightIcon, dark: OpenAIDarkIcon, default: "dark" },
+  react: { all: ReactIcon },
   reddit: { all: RedditIcon },
   replicate: {
     light: ReplicateLightIcon,
