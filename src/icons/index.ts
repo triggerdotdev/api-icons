@@ -114,9 +114,10 @@ import {
   CodeSandboxLightIcon,
 } from "./companies/codesandbox";
 export { CodeSandboxDarkIcon, CodeSandboxLightIcon };
-import { MondayIcon } from "./companies/Monday";
+import { MondayIcon } from "./companies/monday";
 export { MondayIcon };
 import { ResendIcon } from "./companies/resend";
+import { NextjsLightIcon, NextjsDarkIcon } from "./companies/nextjs";
 export { ResendIcon };
 
 export const icons: Record<string, Icon> = {
@@ -170,6 +171,7 @@ export const icons: Record<string, Icon> = {
   monday: { all: MondayIcon },
   mux: { light: MuxLightIcon, dark: MuxDarkIcon, default: "dark" },
   microsoftazure: { all: MicrosoftAzureIcon },
+  nextjs: { light: NextjsLightIcon, dark: NextjsDarkIcon, default: "dark" },
   notion: { all: NotionIcon },
   posthog: { light: PosthogLightIcon, dark: PosthogDarkIcon, default: "dark" },
   plain: { all: PlainIcon },
