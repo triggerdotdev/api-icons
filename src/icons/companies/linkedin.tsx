@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
 import { SVGProps } from "../../types";
 
-export const LinkedInLogo = forwardRef<SVGSVGElement, SVGProps>(
+export const LinkedInIcon = forwardRef<SVGSVGElement, SVGProps>(
   (props, ref) => (
     <svg
       xmlns="http://www.w3.org/2000/svg"

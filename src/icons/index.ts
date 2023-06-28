@@ -55,8 +55,8 @@ import { FlickrIcon } from "./companies/flickr";
 export { FlickrIcon };
 import { DropBoxIcon } from "./companies/dropbox";
 export { DropBoxIcon };
-import { LinkedInLogo } from "./companies/linkedin";
-export { LinkedInLogo };
+import { LinkedInIcon } from "./companies/linkedin";
+export { LinkedInIcon };
 import { GiphyIcon } from "./companies/giphy";
 export { GiphyIcon };
 import { TrelloIcon } from "./companies/trello";
@@ -159,7 +159,7 @@ export const icons: Record<string, Icon> = {
   infisical: { all: InfisicalIcon },
   instagram: { all: InstagramIcon },
   linear: { light: LinearLightIcon, dark: LinearDarkIcon, default: "light" },
-  linkedin: { all: LinkedInLogo },
+  linkedin: { all: LinkedInIcon },
   loops: { all: LoopsIcon },
   mailchimp: {
     light: MailchimpLightIcon,
