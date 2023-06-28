@@ -118,6 +118,7 @@ import { MondayIcon } from "./companies/monday";
 export { MondayIcon };
 import { ResendIcon } from "./companies/resend";
 import { NextjsLightIcon, NextjsDarkIcon } from "./companies/nextjs";
+export { NextjsLightIcon, NextjsDarkIcon };
 export { ResendIcon };
 
 export const icons: Record<string, Icon> = {
