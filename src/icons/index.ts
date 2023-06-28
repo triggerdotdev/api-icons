@@ -120,6 +120,8 @@ import { ResendIcon } from "./companies/resend";
 import { NextjsLightIcon, NextjsDarkIcon } from "./companies/nextjs";
 import { ReactIcon } from "./companies/react";
 export { ReactIcon };
+import { VercelDarkIcon, VercelLightIcon } from "./companies/vercel";
+export { VercelDarkIcon, VercelLightIcon };
 export { NextjsLightIcon, NextjsDarkIcon };
 export { ResendIcon };
 
@@ -204,6 +206,7 @@ export const icons: Record<string, Icon> = {
   },
   twilio: { all: TwilioIcon },
   twitter: { all: TwitterIcon },
+  vercel: { dark: VercelDarkIcon, light: VercelLightIcon, default: "dark" },
   whatsapp: { all: WhatsAppIcon },
   youtube: { all: YouTubeIcon },
 };
