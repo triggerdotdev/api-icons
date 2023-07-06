@@ -122,6 +122,8 @@ import { ReactIcon } from "./companies/react";
 export { ReactIcon };
 import { VercelDarkIcon, VercelLightIcon } from "./companies/vercel";
 import { VSCodeIcon } from "./companies/vscode";
+import { TypeformDarkIcon, TypeformLightIcon } from "./companies/typeform";
+export { TypeformDarkIcon, TypeformLightIcon };
 export { VSCodeIcon };
 export { VercelDarkIcon, VercelLightIcon };
 export { NextjsLightIcon, NextjsDarkIcon };
@@ -208,6 +210,11 @@ export const icons: Record<string, Icon> = {
   },
   twilio: { all: TwilioIcon },
   twitter: { all: TwitterIcon },
+  typeform: {
+    dark: TypeformDarkIcon,
+    light: TypeformLightIcon,
+    default: "dark",
+  },
   vercel: { dark: VercelDarkIcon, light: VercelLightIcon, default: "dark" },
   vscode: { all: VSCodeIcon },
   whatsapp: { all: WhatsAppIcon },
