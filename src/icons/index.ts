@@ -123,6 +123,8 @@ export { ReactIcon };
 import { VercelDarkIcon, VercelLightIcon } from "./companies/vercel";
 import { VSCodeIcon } from "./companies/vscode";
 import { TypeformDarkIcon, TypeformLightIcon } from "./companies/typeform";
+import { StabilityAIIcon } from "./companies/stabilityai";
+export { StabilityAIIcon };
 export { TypeformDarkIcon, TypeformLightIcon };
 export { VSCodeIcon };
 export { VercelDarkIcon, VercelLightIcon };
@@ -199,6 +201,7 @@ export const icons: Record<string, Icon> = {
   spotify: { all: SpotifyIcon },
   shopify: { all: ShopifyIcon },
   slack: { all: SlackIcon },
+  stabilityai: { all: StabilityAIIcon },
   stripe: { all: StripeIcon },
   supabase: { all: SupabaseIcon },
   svix: { all: SvixIcon },
