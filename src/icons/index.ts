@@ -97,6 +97,7 @@ import {
   ReactEmailDarkIcon,
   ReactEmailLightIcon,
 } from "./companies/reactemail";
+export { ReactEmailDarkIcon, ReactEmailLightIcon };
 import { RedditIcon } from "./companies/reddit";
 export { RedditIcon };
 import { ReplicateDarkIcon, ReplicateLightIcon } from "./companies/replicate";
