@@ -124,6 +124,8 @@ import { SupabaseIcon } from "./companies/supabase";
 export { SupabaseIcon };
 import { SvixIcon } from "./companies/svix";
 export { SvixIcon };
+import { tldrawLightIcon, tldrawDarkIcon } from "./companies/tldraw";
+export { tldrawLightIcon, tldrawDarkIcon };
 import { TrelloIcon } from "./companies/trello";
 export { TrelloIcon };
 import {
@@ -239,6 +241,7 @@ export const icons: Record<string, Icon> = {
   stripe: { all: StripeIcon },
   supabase: { all: SupabaseIcon },
   svix: { all: SvixIcon },
+  tldraw: { light: tldrawLightIcon, dark: tldrawDarkIcon, default: "dark" },
   trello: { all: TrelloIcon },
   triggerdotdev: {
     light: TriggerDotDevLightIcon,
