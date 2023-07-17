@@ -1,7 +1,7 @@
 import { forwardRef } from "react";
 import { SVGProps } from "../../types";
 
-export const tldrawDarkIcon = forwardRef<SVGSVGElement, SVGProps>(
+export const TldrawDarkIcon = forwardRef<SVGSVGElement, SVGProps>(
   (props, ref) => (
     <svg
       viewBox="0 0 240 240"
@@ -26,7 +26,7 @@ export const tldrawDarkIcon = forwardRef<SVGSVGElement, SVGProps>(
   )
 );
 
-export const tldrawLightIcon = forwardRef<SVGSVGElement, SVGProps>(
+export const TldrawLightIcon = forwardRef<SVGSVGElement, SVGProps>(
   (props, ref) => (
     <svg
       viewBox="0 0 240 240"
