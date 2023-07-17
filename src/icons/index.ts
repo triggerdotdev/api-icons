@@ -1,6 +1,8 @@
 import { Icon } from "../types";
 import { AirtableIcon } from "./companies/airtable";
 export { AirtableIcon };
+import { AppwriteIcon } from "./companies/appwrite";
+export { AppwriteIcon };
 import { AsanaIcon } from "./companies/asana";
 export { AsanaIcon };
 import { DiscordIcon } from "./companies/discord";
@@ -17,6 +19,8 @@ import { GoogleDocsIcon } from "./companies/googledocs";
 export { GoogleDocsIcon };
 import { GoogleIcon } from "./companies/google";
 export { GoogleIcon };
+import { HighlightIcon } from "./companies/highlight";
+export { HighlightIcon };
 import { HubspotIcon } from "./companies/hubspot";
 export { HubspotIcon };
 import { LinearDarkIcon, LinearLightIcon } from "./companies/linear";
@@ -135,6 +139,7 @@ export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
   algolia: { all: AlgoliaIcon },
   appsmith: { all: AppsmithIcon },
+  AppwriteIcon: { all: AppwriteIcon },
   anthropic: {
     light: AnthropicLightIcon,
     dark: AnthropicDarkIcon,
@@ -167,6 +172,7 @@ export const icons: Record<string, Icon> = {
   googledocs: { all: GoogleDocsIcon },
   googledrive: { all: GoogleDriveIcon },
   googlemaps: { all: GoogleMapsIcon },
+  highlight: { all: HighlightIcon },
   hubspot: { all: HubspotIcon },
   infisical: { all: InfisicalIcon },
   instagram: { all: InstagramIcon },
