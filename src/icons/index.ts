@@ -93,6 +93,10 @@ import { PosthogDarkIcon, PosthogLightIcon } from "./companies/posthog";
 export { PosthogDarkIcon, PosthogLightIcon };
 import { ReactIcon } from "./companies/react";
 export { ReactIcon };
+import {
+  ReactEmailDarkIcon,
+  ReactEmailLightIcon,
+} from "./companies/reactemail";
 import { RedditIcon } from "./companies/reddit";
 export { RedditIcon };
 import { ReplicateDarkIcon, ReplicateLightIcon } from "./companies/replicate";
@@ -212,6 +216,11 @@ export const icons: Record<string, Icon> = {
   plain: { all: PlainIcon },
   openai: { light: OpenAILightIcon, dark: OpenAIDarkIcon, default: "dark" },
   react: { all: ReactIcon },
+  reactemail: {
+    light: ReactEmailLightIcon,
+    dark: ReactEmailDarkIcon,
+    default: "dark",
+  },
   reddit: { all: RedditIcon },
   replicate: {
     light: ReplicateLightIcon,
