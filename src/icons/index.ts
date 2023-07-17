@@ -12,6 +12,8 @@ import {
 export { CrowdDotDevLightIcon, CrowdDotDevDarkIcon };
 import { DiscordIcon } from "./companies/discord";
 export { DiscordIcon };
+import { DocumensoDarkIcon, DocumensoLightIcon } from "./companies/documenso";
+export { DocumensoDarkIcon, DocumensoLightIcon };
 import { FacebookIcon } from "./companies/facebook";
 export { FacebookIcon };
 import { GitHubDarkIcon, GitHubLightIcon } from "./companies/github";
@@ -170,6 +172,11 @@ export const icons: Record<string, Icon> = {
     default: "dark",
   },
   discord: { all: DiscordIcon },
+  documenso: {
+    light: DocumensoLightIcon,
+    dark: DocumensoDarkIcon,
+    default: "dark",
+  },
   dropbox: { all: DropBoxIcon },
   facebook: { all: FacebookIcon },
   flickr: { all: FlickrIcon },
