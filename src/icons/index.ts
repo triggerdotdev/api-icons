@@ -5,6 +5,11 @@ import { AppwriteIcon } from "./companies/appwrite";
 export { AppwriteIcon };
 import { AsanaIcon } from "./companies/asana";
 export { AsanaIcon };
+import {
+  CrowdDotDevLightIcon,
+  CrowdDotDevDarkIcon,
+} from "./companies/crowddotdev";
+export { CrowdDotDevLightIcon, CrowdDotDevDarkIcon };
 import { DiscordIcon } from "./companies/discord";
 export { DiscordIcon };
 import { FacebookIcon } from "./companies/facebook";
@@ -159,6 +164,11 @@ export const icons: Record<string, Icon> = {
     default: "dark",
   },
   clickup: { all: ClickUpIcon },
+  crowddotdev: {
+    light: CrowdDotDevLightIcon,
+    dark: CrowdDotDevDarkIcon,
+    default: "dark",
+  },
   discord: { all: DiscordIcon },
   dropbox: { all: DropBoxIcon },
   facebook: { all: FacebookIcon },
