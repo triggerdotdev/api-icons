@@ -73,6 +73,8 @@ import { LinearDarkIcon, LinearLightIcon } from "./companies/linear";
 export { LinearDarkIcon, LinearLightIcon };
 import { LoopsIcon } from "./companies/loops";
 export { LoopsIcon };
+import { LotusIcon } from "./companies/lotus";
+export { LotusIcon };
 import { MailchimpDarkIcon, MailchimpLightIcon } from "./companies/mailchimp";
 export { MailchimpDarkIcon, MailchimpLightIcon };
 import { MailgunIcon } from "./companies/mailgun";
@@ -207,6 +209,7 @@ export const icons: Record<string, Icon> = {
   linear: { light: LinearLightIcon, dark: LinearDarkIcon, default: "light" },
   linkedin: { all: LinkedInIcon },
   loops: { all: LoopsIcon },
+  lotus: { all: LotusIcon },
   mailchimp: {
     light: MailchimpLightIcon,
     dark: MailchimpDarkIcon,
