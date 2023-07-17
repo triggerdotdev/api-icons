@@ -65,6 +65,8 @@ import { InfisicalIcon } from "./companies/infisical";
 export { InfisicalIcon };
 import { InstagramIcon } from "./companies/instagram";
 export { InstagramIcon };
+import { KeepIcon } from "./companies/keep";
+export { KeepIcon };
 import { LinkedInIcon } from "./companies/linkedin";
 export { LinkedInIcon };
 import { LinearDarkIcon, LinearLightIcon } from "./companies/linear";
@@ -201,6 +203,7 @@ export const icons: Record<string, Icon> = {
   hubspot: { all: HubspotIcon },
   infisical: { all: InfisicalIcon },
   instagram: { all: InstagramIcon },
+  keep: { all: KeepIcon },
   linear: { light: LinearLightIcon, dark: LinearDarkIcon, default: "light" },
   linkedin: { all: LinkedInIcon },
   loops: { all: LoopsIcon },
