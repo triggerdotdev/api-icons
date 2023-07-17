@@ -16,8 +16,8 @@ export const HighlightIcon = forwardRef<SVGSVGElement, SVGProps>(
         fill="#6C37F4"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M82.5 67.5C74.2157 67.5 67.5 74.2155 67.5 82.5V157.5C67.5 165.784 74.2157 172.5 82.5 172.5H127.5L90 67.5H82.5ZM112.5 67.5L150 172.5H157.5C165.784 172.5 172.5 165.784 172.5 157.5V82.5C172.5 74.2155 165.784 67.5 157.5 67.5H112.5Z"
         fill="white"
       />
