@@ -141,6 +141,8 @@ export { VSCodeIcon };
 export { VercelDarkIcon, VercelLightIcon };
 export { NextjsLightIcon, NextjsDarkIcon };
 export { ResendIcon };
+import { UnkeyDarkIcon, UnkeyLightIcon } from "./companies/unkey";
+export { UnkeyDarkIcon, UnkeyLightIcon };
 
 export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
@@ -241,6 +243,7 @@ export const icons: Record<string, Icon> = {
     light: TypeformLightIcon,
     default: "dark",
   },
+  unkey: { light: UnkeyLightIcon, dark: UnkeyDarkIcon, default: "dark" },
   vercel: { dark: VercelDarkIcon, light: VercelLightIcon, default: "dark" },
   vscode: { all: VSCodeIcon },
   whatsapp: { all: WhatsAppIcon },
