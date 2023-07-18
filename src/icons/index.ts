@@ -81,6 +81,8 @@ import { MailgunIcon } from "./companies/mailgun";
 export { MailgunIcon };
 import { MicrosoftAzureIcon } from "./companies/microsoftazure";
 export { MicrosoftAzureIcon };
+import { MirrorfulIcon } from "./companies/mirrorful";
+export { MirrorfulIcon };
 import { MondayIcon } from "./companies/monday";
 export { MondayIcon };
 import { MuxDarkIcon, MuxLightIcon } from "./companies/mux";
@@ -104,6 +106,8 @@ import {
 export { ReactEmailDarkIcon, ReactEmailLightIcon };
 import { RedditIcon } from "./companies/reddit";
 export { RedditIcon };
+import { ReflexDarkIcon, ReflexLightIcon } from "./companies/reflex";
+export { ReflexDarkIcon, ReflexLightIcon };
 import { ReplicateDarkIcon, ReplicateLightIcon } from "./companies/replicate";
 export { ReplicateDarkIcon, ReplicateLightIcon };
 import { ResendIcon } from "./companies/resend";
@@ -219,6 +223,7 @@ export const icons: Record<string, Icon> = {
   monday: { all: MondayIcon },
   mux: { light: MuxLightIcon, dark: MuxDarkIcon, default: "dark" },
   microsoftazure: { all: MicrosoftAzureIcon },
+  mirrorful: { all: MirrorfulIcon },
   nextjs: { light: NextjsLightIcon, dark: NextjsDarkIcon, default: "dark" },
   notion: { all: NotionIcon },
   posthog: { light: PosthogLightIcon, dark: PosthogDarkIcon, default: "dark" },
@@ -231,6 +236,7 @@ export const icons: Record<string, Icon> = {
     default: "dark",
   },
   reddit: { all: RedditIcon },
+  reflex: { light: ReflexLightIcon, dark: ReflexDarkIcon, default: "dark" },
   replicate: {
     light: ReplicateLightIcon,
     dark: ReplicateDarkIcon,
