@@ -157,18 +157,31 @@ import { WhatsAppIcon } from "./companies/whatsapp";
 export { WhatsAppIcon };
 import { YouTubeIcon } from "./companies/youtube";
 export { YouTubeIcon };
+import { AtlassianIcon } from "./companies/atlassian";
+export { AtlassianIcon };
+import { InstabugIcon } from "./companies/instabug";
+export { InstabugIcon };
+import { LemonSqueezyIcon } from "./companies/lemonsqueezy";
+export { LemonSqueezyIcon };
+import { PagerDutyIcon } from "./companies/pagerduty";
+export { PagerDutyIcon };
+import { RaycastIcon } from "./companies/raycast";
+export { RaycastIcon };
+import { YCombinatorIcon } from "./companies/ycombinator";
+export { YCombinatorIcon };
 
 export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
   algolia: { all: AlgoliaIcon },
   appsmith: { all: AppsmithIcon },
-  AppwriteIcon: { all: AppwriteIcon },
+  appwriteIcon: { all: AppwriteIcon },
   anthropic: {
     light: AnthropicLightIcon,
     dark: AnthropicDarkIcon,
     default: "dark",
   },
   asana: { all: AsanaIcon },
+  atlassian: { all: AtlassianIcon },
   aws: { light: AWSLightIcon, dark: AWSDarkIcon, default: "dark" },
   caldotcom: {
     light: CalDotComLightIcon,
@@ -208,8 +221,10 @@ export const icons: Record<string, Icon> = {
   highlight: { all: HighlightIcon },
   hubspot: { all: HubspotIcon },
   infisical: { all: InfisicalIcon },
+  instabug: { all: InstabugIcon },
   instagram: { all: InstagramIcon },
   keep: { all: KeepIcon },
+  lemonsqueezy: { all: LemonSqueezyIcon },
   linear: { light: LinearLightIcon, dark: LinearDarkIcon, default: "light" },
   linkedin: { all: LinkedInIcon },
   loops: { all: LoopsIcon },
@@ -226,9 +241,11 @@ export const icons: Record<string, Icon> = {
   mirrorful: { all: MirrorfulIcon },
   nextjs: { light: NextjsLightIcon, dark: NextjsDarkIcon, default: "dark" },
   notion: { all: NotionIcon },
+  pagerduty: { all: PagerDutyIcon },
   posthog: { light: PosthogLightIcon, dark: PosthogDarkIcon, default: "dark" },
   plain: { all: PlainIcon },
   openai: { light: OpenAILightIcon, dark: OpenAIDarkIcon, default: "dark" },
+  raycast: { all: RaycastIcon },
   react: { all: ReactIcon },
   reactemail: {
     light: ReactEmailLightIcon,
@@ -271,5 +288,6 @@ export const icons: Record<string, Icon> = {
   vercel: { dark: VercelDarkIcon, light: VercelLightIcon, default: "dark" },
   vscode: { all: VSCodeIcon },
   whatsapp: { all: WhatsAppIcon },
+  ycombinator: { all: YCombinatorIcon },
   youtube: { all: YouTubeIcon },
 };
