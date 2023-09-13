@@ -16,7 +16,7 @@ npm install @trigger.dev/companyicons
 
 ## Usage
 
-DIrectly import a specific icon from the library and use them in your React components.
+Directly import a specific icon from the library and use them in your React components.
 
 ```tsx
 import React from "react";
@@ -93,10 +93,11 @@ The Trigger.dev team can publish new versions of the library. Please create a pu
 
 They will:
 
-1. check any changes look good in Storybook.
+1. Check any changes look good in Storybook.
 2. Bump the version number.
-3. Run `npm publish` to publish a new version.
-4. Push the modified package.json to the repository.
+3. Run `npm i`.
+4. Run `npm publish` to publish a new version.
+5. Push the modified package.json to the repository.
 
 ## License
 
