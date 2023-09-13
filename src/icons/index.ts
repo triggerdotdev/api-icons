@@ -169,6 +169,22 @@ import { RaycastIcon } from "./companies/raycast";
 export { RaycastIcon };
 import { YCombinatorIcon } from "./companies/ycombinator";
 export { YCombinatorIcon };
+import { RemixDarkIcon, RemixLightIcon } from "./companies/remix";
+export { RemixDarkIcon, RemixLightIcon };
+import { ExpressDarkIcon, ExpressLightIcon } from "./companies/express";
+export { ExpressDarkIcon, ExpressLightIcon };
+import { RedwoodIcon } from "./companies/redwood";
+export { RedwoodIcon };
+import { AstroDarkIcon, AstroLightIcon } from "./companies/astro";
+export { AstroDarkIcon, AstroLightIcon };
+import { NuxtIcon } from "./companies/nuxt";
+export { NuxtIcon };
+import { SveltekitIcon } from "./companies/sveltekit";
+export { SveltekitIcon };
+import { FastifyDarkIcon, FastifyLightIcon } from "./companies/fastify";
+export { FastifyDarkIcon, FastifyLightIcon };
+import { NestjsIcon } from "./companies/nest";
+export { NestjsIcon };
 
 export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
@@ -181,6 +197,7 @@ export const icons: Record<string, Icon> = {
     default: "dark",
   },
   asana: { all: AsanaIcon },
+  astro: { light: AstroLightIcon, dark: AstroDarkIcon, default: "dark" },
   atlassian: { all: AtlassianIcon },
   aws: { light: AWSLightIcon, dark: AWSDarkIcon, default: "dark" },
   caldotcom: {
@@ -207,7 +224,9 @@ export const icons: Record<string, Icon> = {
     default: "dark",
   },
   dropbox: { all: DropBoxIcon },
+  express: { light: ExpressLightIcon, dark: ExpressDarkIcon, default: "dark" },
   facebook: { all: FacebookIcon },
+  fastify: { light: FastifyLightIcon, dark: FastifyDarkIcon, default: "dark" },
   flickr: { all: FlickrIcon },
   github: { light: GitHubLightIcon, dark: GitHubDarkIcon, default: "dark" },
   giphy: { all: GiphyIcon },
@@ -239,8 +258,10 @@ export const icons: Record<string, Icon> = {
   mux: { light: MuxLightIcon, dark: MuxDarkIcon, default: "dark" },
   microsoftazure: { all: MicrosoftAzureIcon },
   mirrorful: { all: MirrorfulIcon },
+  nestjs: { all: NestjsIcon },
   nextjs: { light: NextjsLightIcon, dark: NextjsDarkIcon, default: "dark" },
   notion: { all: NotionIcon },
+  nuxt: { all: NuxtIcon },
   pagerduty: { all: PagerDutyIcon },
   posthog: { light: PosthogLightIcon, dark: PosthogDarkIcon, default: "dark" },
   plain: { all: PlainIcon },
@@ -253,7 +274,13 @@ export const icons: Record<string, Icon> = {
     default: "dark",
   },
   reddit: { all: RedditIcon },
+  redwood: { all: RedwoodIcon },
   reflex: { light: ReflexLightIcon, dark: ReflexDarkIcon, default: "dark" },
+  remix: {
+    light: RemixLightIcon,
+    dark: RemixDarkIcon,
+    default: "dark",
+  },
   replicate: {
     light: ReplicateLightIcon,
     dark: ReplicateDarkIcon,
@@ -269,6 +296,7 @@ export const icons: Record<string, Icon> = {
   stabilityai: { all: StabilityAIIcon },
   stripe: { all: StripeIcon },
   supabase: { all: SupabaseIcon },
+  sveltekit: { all: SveltekitIcon },
   svix: { all: SvixIcon },
   tldraw: { light: TldrawLightIcon, dark: TldrawDarkIcon, default: "dark" },
   trello: { all: TrelloIcon },
