@@ -185,6 +185,8 @@ import { FastifyDarkIcon, FastifyLightIcon } from "./companies/fastify";
 export { FastifyDarkIcon, FastifyLightIcon };
 import { NestjsIcon } from "./companies/nest";
 export { NestjsIcon };
+import { XDarkIcon, XLightIcon } from "./companies/x";
+export { XDarkIcon, XLightIcon };
 
 export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
@@ -316,6 +318,7 @@ export const icons: Record<string, Icon> = {
   vercel: { dark: VercelDarkIcon, light: VercelLightIcon, default: "dark" },
   vscode: { all: VSCodeIcon },
   whatsapp: { all: WhatsAppIcon },
+  x: { dark: XDarkIcon, light: XLightIcon, default: "dark" },
   ycombinator: { all: YCombinatorIcon },
   youtube: { all: YouTubeIcon },
 };
