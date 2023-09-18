@@ -93,8 +93,8 @@ import { NotionIcon } from "./companies/notion";
 export { NotionIcon };
 import { OpenAIDarkIcon, OpenAILightIcon } from "./companies/openai";
 export { OpenAIDarkIcon, OpenAILightIcon };
-import { PlainIcon } from "./companies/plain";
-export { PlainIcon };
+import { PlainLightIcon, PlainDarkIcon } from "./companies/plain";
+export { PlainLightIcon, PlainDarkIcon };
 import { PosthogDarkIcon, PosthogLightIcon } from "./companies/posthog";
 export { PosthogDarkIcon, PosthogLightIcon };
 import { ReactIcon } from "./companies/react";
@@ -110,8 +110,8 @@ import { ReflexDarkIcon, ReflexLightIcon } from "./companies/reflex";
 export { ReflexDarkIcon, ReflexLightIcon };
 import { ReplicateDarkIcon, ReplicateLightIcon } from "./companies/replicate";
 export { ReplicateDarkIcon, ReplicateLightIcon };
-import { ResendIcon } from "./companies/resend";
-export { ResendIcon };
+import { ResendLightIcon, ResendDarkIcon } from "./companies/resend";
+export { ResendLightIcon, ResendDarkIcon };
 import { SalesforceIcon } from "./companies/salesforce";
 export { SalesforceIcon };
 import { SegmentIcon } from "./companies/segment";
@@ -266,7 +266,7 @@ export const icons: Record<string, Icon> = {
   nuxt: { all: NuxtIcon },
   pagerduty: { all: PagerDutyIcon },
   posthog: { light: PosthogLightIcon, dark: PosthogDarkIcon, default: "dark" },
-  plain: { all: PlainIcon },
+  plain: { light: PlainLightIcon, dark: PlainDarkIcon, default: "dark" },
   openai: { light: OpenAILightIcon, dark: OpenAIDarkIcon, default: "dark" },
   raycast: { all: RaycastIcon },
   react: { all: ReactIcon },
@@ -288,7 +288,7 @@ export const icons: Record<string, Icon> = {
     dark: ReplicateDarkIcon,
     default: "dark",
   },
-  resend: { all: ResendIcon },
+  resend: { light: ResendLightIcon, dark: ResendDarkIcon, default: "dark" },
   salesforce: { all: SalesforceIcon },
   segment: { all: SegmentIcon },
   sendgrid: { all: SendGridIcon },
