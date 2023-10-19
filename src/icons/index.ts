@@ -91,6 +91,8 @@ import { NextjsDarkIcon, NextjsLightIcon } from "./companies/nextjs";
 export { NextjsDarkIcon, NextjsLightIcon };
 import { NotionIcon } from "./companies/notion";
 export { NotionIcon };
+import { NovuIcon } from "./companies/novu";
+export { NovuIcon };
 import { OpenAIDarkIcon, OpenAILightIcon } from "./companies/openai";
 export { OpenAIDarkIcon, OpenAILightIcon };
 import { PlainLightIcon, PlainDarkIcon } from "./companies/plain";
@@ -263,6 +265,7 @@ export const icons: Record<string, Icon> = {
   nestjs: { all: NestjsIcon },
   nextjs: { light: NextjsLightIcon, dark: NextjsDarkIcon, default: "dark" },
   notion: { all: NotionIcon },
+  novu: { all: NovuIcon },
   nuxt: { all: NuxtIcon },
   pagerduty: { all: PagerDutyIcon },
   posthog: { light: PosthogLightIcon, dark: PosthogDarkIcon, default: "dark" },
