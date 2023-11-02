@@ -12,6 +12,8 @@ import { AsanaIcon } from "./companies/asana";
 export { AsanaIcon };
 import { AWSDarkIcon, AWSLightIcon } from "./companies/aws";
 export { AWSDarkIcon, AWSLightIcon };
+import { BrexIcon } from "./companies/brex";
+export { BrexIcon };
 import { CalDotComDarkIcon, CalDotComLightIcon } from "./companies/caldotcom";
 export { CalDotComDarkIcon, CalDotComLightIcon };
 import { ClickUpIcon } from "./companies/clickup";
@@ -208,6 +210,7 @@ export const icons: Record<string, Icon> = {
   astro: { light: AstroLightIcon, dark: AstroDarkIcon, default: "dark" },
   atlassian: { all: AtlassianIcon },
   aws: { light: AWSLightIcon, dark: AWSDarkIcon, default: "dark" },
+  brex: { all: BrexIcon },
   caldotcom: {
     light: CalDotComLightIcon,
     dark: CalDotComDarkIcon,
