@@ -190,6 +190,8 @@ export { FastifyDarkIcon, FastifyLightIcon };
 import { NestjsIcon } from "./companies/nest";
 export { NestjsIcon };
 import { XDarkIcon, XLightIcon } from "./companies/x";
+import { GoogleSheetsIcon } from "./companies/googlesheets";
+export { GoogleSheetsIcon };
 export { XDarkIcon, XLightIcon };
 
 export const icons: Record<string, Icon> = {
@@ -244,6 +246,7 @@ export const icons: Record<string, Icon> = {
   googledocs: { all: GoogleDocsIcon },
   googledrive: { all: GoogleDriveIcon },
   googlemaps: { all: GoogleMapsIcon },
+  googlesheets: { all: GoogleSheetsIcon },
   highlight: { all: HighlightIcon },
   hubspot: { all: HubspotIcon },
   infisical: { all: InfisicalIcon },
