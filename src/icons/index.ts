@@ -128,6 +128,8 @@ import { ShopifyIcon } from "./companies/shopify";
 export { ShopifyIcon };
 import { SlackIcon } from "./companies/slack";
 export { SlackIcon };
+import { SnykIcon } from "./companies/snyk";
+export { SnykIcon };
 import { SpotifyIcon } from "./companies/spotify";
 export { SpotifyIcon };
 import { StabilityAIIcon } from "./companies/stabilityai";
@@ -187,6 +189,7 @@ import { NuxtIcon } from "./companies/nuxt";
 export { NuxtIcon };
 import { SveltekitIcon } from "./companies/sveltekit";
 export { SveltekitIcon };
+import { TodoistIcon } from "./companies/todoist";
 import { FastifyDarkIcon, FastifyLightIcon } from "./companies/fastify";
 export { FastifyDarkIcon, FastifyLightIcon };
 import { NestjsIcon } from "./companies/nest";
@@ -195,6 +198,8 @@ import { XDarkIcon, XLightIcon } from "./companies/x";
 import { GoogleSheetsIcon } from "./companies/googlesheets";
 export { GoogleSheetsIcon };
 export { XDarkIcon, XLightIcon };
+import { ZBDDarkIcon, ZBDLightIcon } from "./companies/zbd";
+export { ZBDDarkIcon, ZBDLightIcon };
 
 export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
@@ -307,12 +312,14 @@ export const icons: Record<string, Icon> = {
   spotify: { all: SpotifyIcon },
   shopify: { all: ShopifyIcon },
   slack: { all: SlackIcon },
+  snyk: { all: SnykIcon },
   stabilityai: { all: StabilityAIIcon },
   stripe: { all: StripeIcon },
   supabase: { all: SupabaseIcon },
   sveltekit: { all: SveltekitIcon },
   svix: { all: SvixIcon },
   tldraw: { light: TldrawLightIcon, dark: TldrawDarkIcon, default: "dark" },
+  todoist: { all: TodoistIcon },
   trello: { all: TrelloIcon },
   triggerdotdev: {
     light: TriggerDotDevLightIcon,
@@ -333,4 +340,5 @@ export const icons: Record<string, Icon> = {
   x: { dark: XDarkIcon, light: XLightIcon, default: "dark" },
   ycombinator: { all: YCombinatorIcon },
   youtube: { all: YouTubeIcon },
+  zbd: { dark: ZBDDarkIcon, light: ZBDLightIcon, default: "dark" },
 };
