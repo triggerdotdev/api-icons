@@ -16,6 +16,8 @@ import { BrexIcon } from "./companies/brex";
 export { BrexIcon };
 import { CalDotComDarkIcon, CalDotComLightIcon } from "./companies/caldotcom";
 export { CalDotComDarkIcon, CalDotComLightIcon };
+import { ClerkDarkIcon, ClerkLightIcon } from "./companies/clerk";
+export { ClerkDarkIcon, ClerkLightIcon };
 import { ClickUpIcon } from "./companies/clickup";
 export { ClickUpIcon };
 import {
@@ -64,6 +66,8 @@ import { HighlightIcon } from "./companies/highlight";
 export { HighlightIcon };
 import { HubspotIcon } from "./companies/hubspot";
 export { HubspotIcon };
+import { HuggingFaceIcon } from "./companies/huggingface";
+export { HuggingFaceIcon };
 import { Icon } from "../types";
 import { InfisicalIcon } from "./companies/infisical";
 export { InfisicalIcon };
@@ -221,13 +225,14 @@ export const icons: Record<string, Icon> = {
     dark: CalDotComDarkIcon,
     default: "dark",
   },
+  clickup: { all: ClickUpIcon },
+  clerk: { light: ClerkLightIcon, dark: ClerkDarkIcon, default: "dark" },
   coda: { all: CodaIcon },
   codesandbox: {
     light: CodeSandboxLightIcon,
     dark: CodeSandboxDarkIcon,
     default: "dark",
   },
-  clickup: { all: ClickUpIcon },
   crowddotdev: {
     light: CrowdDotDevLightIcon,
     dark: CrowdDotDevDarkIcon,
@@ -257,6 +262,7 @@ export const icons: Record<string, Icon> = {
   googlesheets: { all: GoogleSheetsIcon },
   highlight: { all: HighlightIcon },
   hubspot: { all: HubspotIcon },
+  huggingface: { all: HuggingFaceIcon },
   infisical: { all: InfisicalIcon },
   instabug: { all: InstabugIcon },
   instagram: { all: InstagramIcon },
