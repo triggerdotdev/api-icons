@@ -209,7 +209,7 @@ export const icons: Record<string, Icon> = {
   airtable: { all: AirtableIcon },
   algolia: { all: AlgoliaIcon },
   appsmith: { all: AppsmithIcon },
-  appwriteIcon: { all: AppwriteIcon },
+  appwrite: { all: AppwriteIcon },
   anthropic: {
     light: AnthropicLightIcon,
     dark: AnthropicDarkIcon,
