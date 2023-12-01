@@ -202,6 +202,10 @@ import { XDarkIcon, XLightIcon } from "./companies/x";
 import { GoogleSheetsIcon } from "./companies/googlesheets";
 export { GoogleSheetsIcon };
 export { XDarkIcon, XLightIcon };
+import { ZapierIcon } from "./companies/zapier";
+export { ZapierIcon };
+import { SquareLightIcon, SquareDarkIcon } from "./companies/square";
+export { SquareLightIcon, SquareDarkIcon };
 import { ZBDDarkIcon, ZBDLightIcon } from "./companies/zbd";
 export { ZBDDarkIcon, ZBDLightIcon };
 
@@ -316,6 +320,7 @@ export const icons: Record<string, Icon> = {
   segment: { all: SegmentIcon },
   sendgrid: { all: SendGridIcon },
   spotify: { all: SpotifyIcon },
+  square: { light: SquareLightIcon, dark: SquareDarkIcon, default: "dark" },
   shopify: { all: ShopifyIcon },
   slack: { all: SlackIcon },
   snyk: { all: SnykIcon },
@@ -346,5 +351,6 @@ export const icons: Record<string, Icon> = {
   x: { dark: XDarkIcon, light: XLightIcon, default: "dark" },
   ycombinator: { all: YCombinatorIcon },
   youtube: { all: YouTubeIcon },
+  zapier: { all: ZapierIcon },
   zbd: { dark: ZBDDarkIcon, light: ZBDLightIcon, default: "dark" },
 };
