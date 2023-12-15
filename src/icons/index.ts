@@ -64,6 +64,8 @@ import { GoogleMapsIcon } from "./companies/googlemaps";
 export { GoogleMapsIcon };
 import { HighlightIcon } from "./companies/highlight";
 export { HighlightIcon };
+import { HonoIcon } from "./companies/hono";
+export { HonoIcon };
 import { HubspotIcon } from "./companies/hubspot";
 export { HubspotIcon };
 import { HuggingFaceIcon } from "./companies/huggingface";
@@ -265,6 +267,7 @@ export const icons: Record<string, Icon> = {
   googlemaps: { all: GoogleMapsIcon },
   googlesheets: { all: GoogleSheetsIcon },
   highlight: { all: HighlightIcon },
+  hono: { all: HonoIcon },
   hubspot: { all: HubspotIcon },
   huggingface: { all: HuggingFaceIcon },
   infisical: { all: InfisicalIcon },
