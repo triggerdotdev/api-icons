@@ -34,6 +34,8 @@ import {
 export { CrowdDotDevLightIcon, CrowdDotDevDarkIcon };
 import { DeepLDarkIcon, DeepLLightIcon } from "./companies/deepl";
 export { DeepLDarkIcon, DeepLLightIcon };
+import { DigitalOceanIcon } from "./companies/digitalocean";
+export { DigitalOceanIcon };
 import { DiscordIcon } from "./companies/discord";
 export { DiscordIcon };
 import { DocumensoDarkIcon, DocumensoLightIcon } from "./companies/documenso";
@@ -245,6 +247,7 @@ export const icons: Record<string, Icon> = {
     default: "dark",
   },
   deepl: { light: DeepLLightIcon, dark: DeepLDarkIcon, default: "dark" },
+  digitalocean: { all: DigitalOceanIcon },
   discord: { all: DiscordIcon },
   documenso: {
     light: DocumensoLightIcon,
