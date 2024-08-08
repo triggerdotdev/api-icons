@@ -177,6 +177,7 @@ import { AtlassianIcon } from "./companies/atlassian";
 export { AtlassianIcon };
 import { InstabugIcon } from "./companies/instabug";
 import { NodeJSDarkIcon, NodeJSLightIcon } from "./companies/nodejs";
+export { NodeJSDarkIcon, NodeJSLightIcon };
 export { InstabugIcon };
 import { LemonSqueezyIcon } from "./companies/lemonsqueezy";
 export { LemonSqueezyIcon };
