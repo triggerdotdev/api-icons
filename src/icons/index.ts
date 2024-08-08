@@ -176,6 +176,7 @@ export { YouTubeIcon };
 import { AtlassianIcon } from "./companies/atlassian";
 export { AtlassianIcon };
 import { InstabugIcon } from "./companies/instabug";
+import { NodeJSDarkIcon, NodeJSLightIcon } from "./companies/nodejs";
 export { InstabugIcon };
 import { LemonSqueezyIcon } from "./companies/lemonsqueezy";
 export { LemonSqueezyIcon };
@@ -294,6 +295,7 @@ export const icons: Record<string, Icon> = {
   mirrorful: { all: MirrorfulIcon },
   nestjs: { all: NestjsIcon },
   nextjs: { light: NextjsLightIcon, dark: NextjsDarkIcon, default: "dark" },
+  nodejs: { light: NodeJSLightIcon, dark: NodeJSDarkIcon, default: "dark" },
   notion: { all: NotionIcon },
   novu: { all: NovuIcon },
   nuxt: { all: NuxtIcon },
