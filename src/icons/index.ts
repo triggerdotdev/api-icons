@@ -14,6 +14,7 @@ import { AWSDarkIcon, AWSLightIcon } from "./companies/aws";
 export { AWSDarkIcon, AWSLightIcon };
 import { BrexIcon } from "./companies/brex";
 export { BrexIcon };
+import { BunIcon } from "./companies/bun";
 import { CalDotComDarkIcon, CalDotComLightIcon } from "./companies/caldotcom";
 export { CalDotComDarkIcon, CalDotComLightIcon };
 import { ClerkDarkIcon, ClerkLightIcon } from "./companies/clerk";
@@ -230,6 +231,7 @@ export const icons: Record<string, Icon> = {
   atlassian: { all: AtlassianIcon },
   aws: { light: AWSLightIcon, dark: AWSDarkIcon, default: "dark" },
   brex: { all: BrexIcon },
+  bun: { all: BunIcon },
   caldotcom: {
     light: CalDotComLightIcon,
     dark: CalDotComDarkIcon,
